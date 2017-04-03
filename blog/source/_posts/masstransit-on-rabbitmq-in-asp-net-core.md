@@ -41,7 +41,7 @@ The MassTransit and MassTransit packages provide the backbone of MassTransit and
 
 In our example, we're going to use an AddUser message. You can tell from its name that it is a command.
 
-```
+```csharp
 public interface AddUser
 {
     string FirstName { get; set; }
@@ -53,7 +53,7 @@ public interface AddUser
 
 The bus can now be configured in our StartUp.cs up class.
 
-```
+```csharp
 public IServiceProvider ConfigureServices(IServiceCollection services)
 {
     // Add framework services.
@@ -87,20 +87,20 @@ Here we set up the the bus and give it the rabbitMQ connection settings. I hard 
 
 In the configure method we can resolve the bus control and start it up
 
-```
+```csharp
 var bus = container.Resolve<IBusControl>();
 var busHandle = TaskUtil.Await(() => bus.StartAsync());
 ```
 
 It is also polite to shut down the bus one application exit. This was difficult in previous versions of ASP.net/WebAPI but it is now simple. We just add an `IApplicationLifetime lifetime` to the Configure method and then 
 
-```
+```csharp
 lifetime.ApplicationStopping.Register(() => busHandle.Stop());
 ```
 
 Now we can get to actually sending a message. We'll do that right from the controller, because we roll that way. In something like NServiceBus 5 we send messages by writing them to the bus directly. In NSB 6 this changed to use an endpoint, which is a bus in all but name. MassTransit also has a concept of an endpoint and, I'd say, it is closer to what I think of as an endpoint than what NSB uses. An endpoint is a destination to send a message. We can ask the MassTransit bus object to generate us an endpoint. 
 
-```
+```csharp
 IBus _bus;
 public HomeController(IBus bus)
 {
@@ -113,8 +113,8 @@ public async Task<IActionResult> Index()
 
 Again you can see that we have a bit of a reliance on some hard coded strings. We'll look at addressing some of this in a later post. For now it sufices to observe that we send to a specific address. Once we have the endpoint we can send the message
 
-```
- await addUserEndpoint.Send<AddUser>(new 
+```csharp
+await addUserEndpoint.Send<AddUser>(new 
 {
     FirstName = "Simon",
     LastName="Tibbs",
@@ -125,7 +125,7 @@ Again you can see that we have a bit of a reliance on some hard coded strings. W
 
 That's enough to get a message into the RabbitMQ. We can now set up a message consumer on the other end. For this we'll stand up a new command line program, shove a bus in it and hook up a consumer. Sounds like a lot but it is actually pretty simple. In our program entry point, typically Program.cs we build the bus.
 
-```
+```csharp
 var busControl = Bus.Factory.CreateUsingRabbitMq(cfg =>
 {
     var host = cfg.Host(new Uri("rabbitmq://172.22.149.120/"), h =>
@@ -144,7 +144,7 @@ busControl.Start();
 
 Notice that we add a consumer endpoint called AddUserConsumer. A consumer is a piece of code which is executed when a matching message is received. In this case all we want to do is log out to the console
 
-```
+```csharp
 public class AddUserConsumer : IConsumer<AddUser>
 {
     public Task Consume(ConsumeContext<AddUser> context)

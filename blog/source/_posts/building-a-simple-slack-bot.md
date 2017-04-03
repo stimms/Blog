@@ -24,7 +24,7 @@ The service was going to be simple so we opted for nodejs.  This let us get up a
 
 To start we needed an http server
 
-```
+```javascript
   var http = require('http');
   var Uri = require('jsuri');
   
@@ -79,7 +79,7 @@ curl "https://api.trello.com/1/boards/BOARD_ID_HERE?lists=open&list_fields=name&
 
 Again using my reading eyes I found the ID of the list in the board I wanted. (It wasn't very hard, there was only one). Now I could hard code that into the script along with all the other bits and pieces (I mentioned not writing your banking software like this, right?). I put everything into a config object, because that sounded at least a little like something a good programmer would do - hide the fact I'm using global variables by putting them in an object, stored globally. 
 
-```
+```javascript
 function performAdd(text, slackResponse, responseSettings){
   var pathParameters = "key=" + config.trello.key + "&token=" + config.trello.token + "&name=" + querystring.escape(text.split(' ').splice(1).join(" ")) + "&desc=&idList=" + config.trello.listId;
   var post_options = {
@@ -112,7 +112,7 @@ Here we send a request to Trello to create the card. Weirdly, despite the reques
 
 Anyway the callback will send a message to Slack with the short URL extracted from the response from Trello. We want to make the response from the bot seem like it came from one of the people in the channel, specifically the one who sent the message. So we'll pull the user information from Trello and set the bot's name to be theirs as well as matching the icon. 
 
-```
+```javascript
 
 function postToSlack(messages, responseSettings){
 console.dir(responseSettings);

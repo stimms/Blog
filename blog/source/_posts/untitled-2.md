@@ -14,7 +14,7 @@ So when I found myself presented with the question "how can we get into messagin
 
 In my heart I felt like running the installer wasn't quite the right way to go. I'd just copy the installation file into their destination. Problem is that RabbitMQ relies on erlang so I'd have to install that too. I build a docker file which looked something like 
 
-```
+```dockerfile
 FROM microsoft/windowsservercore
 ENV rabbitSourceDir "RabbitMQ Server"
 ENV erlngDir "C:/program files/erl8.2/"
@@ -32,7 +32,7 @@ Didn't work. There must be something useful the installer actually does as part 
 
 So attempt number two:
 
-```
+```dockerfile
 FROM microsoft/windowsservercore
 
 #install chocolatey
@@ -45,7 +45,7 @@ RUN choco install -y rabbitmq
 
 That was enough to get Rabbit MQ installed. I still needed to expose some ports for RabbitMQ so I added 
 
-```
+```dockerfile
 ####### PORTS ########
 #Main rabbitmq port
 EXPOSE 5672
@@ -59,7 +59,7 @@ EXPOSE 15672
 
 Rabbit also likes to know where Erlang lives so some environmental variables for that aren't going to hurt. 
 
-```
+```dockerfile
 #set the home directory for erlang so rabbit can find it easily
 ENV ERLANG_HOME "c:\program files\erl8.2\erts-8.2"
 ENV ERLANG_SERVICE_MANAGER_PATH "c:\program files\erl8.2\erts-8.2"
@@ -73,7 +73,7 @@ We could forward the RabbitMQ ports to our local machine but I like the idea of 
 
 in it. We can copy our new config file over the one in the container from the dockerfile and set up a variable to point Rabbit at it.
 
-```
+```dockerfile
 ENV RABBITMQ_CONFIG_FILE "C:\rabbitmq"
 COPY ["rabbitmq.config"," C:/"]
 ```
@@ -86,7 +86,7 @@ The config file looks like
 
 Finally we'll start the actual rabbit process as the default action of the container
 
-```
+```dockerfile
 ENV RABBIT_MQ_HOME "C:\Program Files\RabbitMQ Server\rabbitmq_server-3.6.5"
 CMD "${RABBIT_MQ_HOME}/sbin/rabbitmq-server.bat"
 ```
@@ -99,7 +99,7 @@ It takes quite a while to start up the container and it took me close to 40 year
 
 The complete docker file is here:
 
-```
+```dockerfile
 FROM microsoft/windowsservercore
 
 ####### PORTS ########

@@ -26,7 +26,7 @@ My project already used gulp but was built on top of sass for css so I had to st
     
 Then I dropped into my gulpfile. As it turns out I already had a target that moved about some vendor css files. All the settings for this task were defined in my config object. I added 4 lines to that object to list the new bootstrap variables I would need. 
 
-```
+```css
 vendorcss: {
       input: ["bower_components/leaflet/dist/*.css", "bower_components/bootstrap/dist/css/bootstrap.min.css"],
       output: "wwwroot/css",
@@ -41,14 +41,14 @@ The ```bootstrapvariables``` gives the location of the variables.less file withi
 
 To the vendorcss target I added 
 
-```
+```javascript
 gulp.src([config.vendorcss.bootstrapvariables,config.vendorcss.bootstrapvariablesoverrides])
     .pipe(concat(config.vendorcss.bootstrapvariables))
     .pipe(gulp.dest('.'));
 ```
 This takes an override file that I keep in my style directory and appends it to the end of the bootstrap variables. In it I can redefine any of the variables for bootstrap. 
 
-```
+```javascript
   gulp.src(config.vendorcss.bootstrapinput)
    .pipe(less())
    .pipe(minifyCSS())

@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-05-10
 ---
 
-This is another brain dump from another session atPrairieDev Con. This session is by the reallyexcellentand hilarious [James Chambers](https://twitter.com/canadianjames).
+This is another brain dump from another session at PrairieDev Con. This session is by the really excellent and hilarious [James Chambers](https://twitter.com/canadianjames).
 
 - ASP.net MVC is built using the idea of convention over configuration.
 - MVC is model view controller

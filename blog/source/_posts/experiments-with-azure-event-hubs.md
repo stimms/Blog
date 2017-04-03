@@ -27,7 +27,9 @@ It looks like theEventProcessorHost writes out timestamps and partition informat
 
 Opening up the blog storage there is a blob for each consumer group * each partition. So for my example with only the $Default group and 16 partitions there were 16 blobs. Each one contained some variation of
 
+```
 {"PartitionId":"10","Owner":"host1","Token":"87f0fe0a-28df-4424-b135-073c3d007912","Epoch":3,"Offset":"400"}
+```
 
 **Is processing on a single partition single-threaded?**
 

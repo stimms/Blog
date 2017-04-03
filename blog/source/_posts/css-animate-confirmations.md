@@ -15,7 +15,7 @@ So knowing that my users are more and more on modern browsers I though I would g
 </div>
 
 This was my first attempt and I'm going to put it into the field and see what people think. It is implemented using the animation css attribute. I start with some key frame defintions:
-```
+```css
   @keyframes save-sucessful-animation {
       0%  { background-color: white}
       25% { background-color: #DFF2BF;}
@@ -28,7 +28,7 @@ I've listed the un-prefixed ones here but you'll need to prefix with -moz or -we
 
 Next we need to apply the style to our element
 
-```
+```css
 .saving {
     animation: save-sucessful-animation 3s forwards;
 }
@@ -36,7 +36,7 @@ Next we need to apply the style to our element
 
 And finally hook up some JavaScript to trigger it on click
 
-```
+```javascript
 $(".trigger").click(function(event){
           var target = $(event.target).siblings(".target");
           if(target.hasClass("saveSuccessful"))
@@ -56,6 +56,7 @@ I remove the element if the class already exists as that is the easiest way to r
 
 Now when users click on the button they get a nifty little animation while the save is going on. I've ignored failure conditions here but this is going to be a big win already for my users. 
 
+```html
 <style>
 
 @-moz-keyframes save-sucessful-animation {
@@ -118,3 +119,4 @@ Now when users click on the button they get a nifty little animation while the s
       });
      });
 </script>
+```

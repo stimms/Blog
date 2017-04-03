@@ -28,7 +28,7 @@ public ActionResult Index()
 
 This returns a collection of UserActivityTotal objects which are lightweight objects
 
-  
+```csharp  
 namespace ActivityTracker.Models   
 {  
  public class UserActivityTotal  
@@ -37,10 +37,10 @@ namespace ActivityTracker.Models
  public int TotalPoints { get; set; }  
  }  
 }
-
+```
 Now in the view I print out this information into javascript
 
-  
+```  
 var userActivitiesNames = [<%   
  counter = 1;  
  if(null != ViewData["UserActivityTotals"])  
@@ -55,6 +55,7 @@ var userActivitiesNames = [<%
  }  
   
  %>];
+ ```
 
 That counter thing is in there because javascript can't handle a trailing comma in array definitions unlike Perl or Ruby. That would be a really nice thing to fix for the next version of javascript. Anyway this results in something which looks like
 
@@ -70,7 +71,7 @@ Add a div to define the size and location of the graph
 
 and a snippet of javascript which sets up the graph object and assigns it to the div
 
-  
+ ``` 
 $.plot($("#UserActivityTotalsGraph"), [userActivities], {  
  label: "Points",  
  series: {  
@@ -80,12 +81,12 @@ $.plot($("#UserActivityTotalsGraph"), [userActivities], {
  bars: { show: true, barWidth: 1.0 },  
  yaxis: { min: 0 }  
  });
-
+```
 [![](http://stimms.files.wordpress.com/2009/06/flotgraph1.jpg?w=300)](http://stimms.files.wordpress.com/2009/06/flotgraph1.jpg)
 
 That looks pretty nice except for the labels on the bottom. To get those working we hop back into the view and add an xaxis line to the plot call.
 
-  
+```
 $.plot($("#UserActivityTotalsGraph"), [userActivities], { label: "Points",  
  series: {  
  data: userActivities,  
@@ -95,10 +96,11 @@ $.plot($("#UserActivityTotalsGraph"), [userActivities], { label: "Points",
  yaxis: { min: 0 },  
  xaxis: { ticks: userActivitiesNames}  
  });
+```
 
 This uses another array called userActivitiesNames which we define with
 
-  
+```  
 var userActivitiesNames = [<%  
  counter = 1;  
  if(null != ViewData["UserActivityTotals"])  
@@ -113,7 +115,7 @@ var userActivitiesNames = [<%
  }  
   
  %>];
-
+```
 And we're done! The final product looks like this:
 
 [![](http://stimms.files.wordpress.com/2009/06/flotgraph2.jpg?w=300)](http://stimms.files.wordpress.com/2009/06/flotgraph2.jpg)

@@ -7,10 +7,15 @@ date: 2017-03-25
 In my last blog post I mentioned in passing something about NServiceBus
 
 ```
-There is, of course, a cost to running NServiceBus as it is a commercial product. In my mind the cost of NServiceBus is well worth it for small and medium installations. For large installations, I'd recommend building more tightly on top of cloud based transports, but that's a topic for another blog post.
+There is, of course, a cost to running NServiceBus as it is a commercial product. 
+In my mind the cost of NServiceBus is well worth it for small and medium 
+installations. For large installations, I'd recommend building more tightly on 
+top of cloud based transports, but that's a topic for another blog post.
 ```
 
 I though that, perhaps, there should be some clarity to my comments. I have a few good friends who make their living working with NServiceBus and there was some debate about my point. 
+
+<!-- more -->
 
 MassTransit is a competitor to NServiceBus and I'd also say that Akka.NET plays in a similar enough space to be considered competition. However, one of the biggest competitors is hubris. The belief, by developers, that they can build NServiceBus in an afternoon. Afterall it is just a sprinkling of dependency injection on top of a transport protocol and mixed with a sprinkle of quartz.net, right?
 

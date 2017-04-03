@@ -10,7 +10,7 @@ A while ago I wrote and article entitled â€œ[HTML Helper for Including and C
 So what do we do? I think the best solution is to stop compressing the javascript on request. Instead combine and compress the javascript as part of the build process and then serve it up as a separate request. The disadvantage here is that if you use a library like jquery-ui on only one page you end up downloading it for any page the user visits. However the price you pay in getting that is a one time cost while using the terrible solution I suggested before you pay for it again and again and again. In that way it is much like not taking out the trash, I have to hear about it every day plus it smells. You wouldn't believe how hard it is to get the smell out of the fur of the 40 dogs in the puppy mill I run in my garage.
 
 How things are cached on a browser has always been a mystery to me and there isn't a whole lot on the internet about the technicalities of what browsers do and do not cache. Basically it seems to come down to the cache-control header which govern how devices retain content. The ever so verbose W3C HTTP 1.1 spec defines the grammar for cache-control as
-
+```
   
 Cache-Control = "Cache-Control" ":" 1#cache-directive  
  cache-directive = cache-request-directive  
@@ -36,6 +36,7 @@ Cache-Control = "Cache-Control" ":" 1#cache-directive
  | "s-maxage" "=" delta-seconds ; Section 14.9.3  
  | cache-extension ; Section 14.9.6  
  cache-extension = token [ "=" ( token | quoted-string ) ]
+ ```
 
 Pretty simple. The fields you have to watch out for are max-age and public/private. The age is how long the cache is permitted to retain the document before it must rerequest it and public indicates the page is public and should be cached for all users. How the actual browsers will implement these is a function of the users so all you can do is make sure your site obeys the standard.
 

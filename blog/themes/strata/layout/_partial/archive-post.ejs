@@ -2,7 +2,7 @@
   <div class="archive-article-inner">
     <header class="archive-article-header">
       <%- partial('post/meta') %>
-      <%- partial('post/title') %>
+      <a href="<%- url_for(post.path) %>"><%- partial('post/title') %></a>
     </header>
 
     <div class="article-entry" itemprop="articleBody">
