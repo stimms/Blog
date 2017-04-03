@@ -7,7 +7,7 @@ date: 2013-04-26
 
 In preparation for my upcoming talk about next generation JavaScript I've been looking atalternativesto writing pure JavaScript. Largely my discussion is predicated on the idea that JavaScript isn't great for building large applications. As others have suggested JavaScript is the assembly language of the web. So far I've looked at TypeScript and CoffeeScirpt, today bring Dart into the mix.
 
-<div class="wp-caption aligncenter" id="attachment_2654" style="width: 760px">[![Wraith Darts - sorry, Google, these are still cooler](http://stimms.files.wordpress.com/2013/04/darts.jpg?w=750)](http://stimms.files.wordpress.com/2013/04/darts.jpg)Wraith Darts â€“ sorry, Google, these are still cooler
+<div class="wp-caption aligncenter" id="attachment_2654" style="width: 760px">[![Wraith Darts - sorry, Google, these are still cooler](http://stimms.files.wordpress.com/2013/04/darts.jpg?w=750)](http://stimms.files.wordpress.com/2013/04/darts.jpg)Wraith Darts "“ sorry, Google, these are still cooler
 
 </div>Dart is a product of Google and having been announced in October of 2011 it is fairly mature. When it first came out the compiler for it was terrible and produced the most verbose JavaScript imaginable. It was unfortunate because it was soundly mocked for being junk. I seem to remember that a hello world application compiled to over 1000 lines of JavaScript code. Things are greatly improved now and Google recently announced that the JavaScript emitted by the latest compiler, dart2js, runs faster than hand written JavaScript. That's quite an achievement considering the crazy lengths to which browsers go to optimize JavaScript.
 

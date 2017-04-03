@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2014-01-06
 ---
 
-A/B testing is a great tool for having your users test your site. It is used by some of the largest sites on the internet to optimize their pages to get people to do exactly what they want. Usually what they want is to drive higher sales or improve click-through rates. The key is in showing users two versions of a page on your site and then monitoring the outcome of that page view. With enough traffic you should be able to derive which page is doing better. It seems somewhat intimidating to run two versions of your website and monitor what people are doing, but it isn't. First it isn't your entire site which is participating in a single giant A/B test, rather it is a small portion of it â€“ really the smallest portion possible. In ASP.net MVC terms it is just a single view.
+A/B testing is a great tool for having your users test your site. It is used by some of the largest sites on the internet to optimize their pages to get people to do exactly what they want. Usually what they want is to drive higher sales or improve click-through rates. The key is in showing users two versions of a page on your site and then monitoring the outcome of that page view. With enough traffic you should be able to derive which page is doing better. It seems somewhat intimidating to run two versions of your website and monitor what people are doing, but it isn't. First it isn't your entire site which is participating in a single giant A/B test, rather it is a small portion of it "“ really the smallest portion possible. In ASP.net MVC terms it is just a single view.
 
 This blog is the first in a series about how to implement A/B testing easily in ASP.net MVC by using Redis
 

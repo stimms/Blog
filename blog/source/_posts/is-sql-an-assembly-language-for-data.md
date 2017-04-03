@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-06-12
 ---
 
-I talk a lot about alternatives to writing JavaScript(typescript, coffeescript, dart,â€¦) and that JavaScript is really just an assembly language for the web. That got me thinking about SQL and whether we should be considering it an assembly language for databases.
+I talk a lot about alternatives to writing JavaScript(typescript, coffeescript, dart,"¦) and that JavaScript is really just an assembly language for the web. That got me thinking about SQL and whether we should be considering it an assembly language for databases.
 
 SQL has a lot of problems which make it more difficult to use. Just look at the [list of key words for it](http://msdn.microsoft.com/en-us/library/aa238507(v=sql.80).aspx): the list is huge and the list of future reserved words bring the list to crazy levels. It would be nicer if the keywords were moved from being keywords to being library functions. The syntax is also not conducive to providing autocompletes. Consider the simple SQL
 

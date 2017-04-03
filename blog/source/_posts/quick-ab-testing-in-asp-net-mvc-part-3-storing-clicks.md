@@ -7,7 +7,7 @@ date: 2014-01-20
 
 <div style="background-color:#f8f8f8;">This blog is the third in a series about how to implement A/B testing easily in ASP.net MVC by using Redis
 
-1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC â€“ Part 1 Using 2Pages")
+1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC "“ Part 1 Using 2Pages")
 2. Choosing your groups
 3. Storing user clicks
 4. Seeing your data
@@ -38,7 +38,7 @@ The actual Redis implementation of IABLogger looks like:
 
 In a real implementation just using localhost for the Redis server is likely not what you want. What isn't apparent here is that the call to Redis is performed asynchronously inside Booksleeve so this should have very little impact on the speed of page rendering.
 
-The initial visit counter should be correctly updated. Now we need a way to update success counter. There are a couple of approaches to this but I think the best is simply to provide an end point for the views to call out for when â€œsuccessâ€ is achieved. Success can be visiting a link or just pausing on the page for a period of time; an endpoint which accepts POSTs is sufficiently flexible to handle all eventualities.
+The initial visit counter should be correctly updated. Now we need a way to update success counter. There are a couple of approaches to this but I think the best is simply to provide an end point for the views to call out for when "success" is achieved. Success can be visiting a link or just pausing on the page for a period of time; an endpoint which accepts POSTs is sufficiently flexible to handle all eventualities.
 
 The controller looks like
 

@@ -20,12 +20,12 @@ Next we're going to to add some new parameters to the build so that people can e
 
 As you can see I added 6 new properties
 
-- PerformDeploy â€“ A boolean which denotes if we should attempt a deploy at all. This keeps our project generic so it can be used on anything.
-- DeploymentURL â€“ The URL to which the deployment should run. I'm stuck on IIS6 so this is the MSDeployAgentService URL
-- DeploymentUserName â€“ The username to use during the deploy
-- DeploymentPassword â€“ The password to use during the deploy. You might want to be more creative about how you get your password to comply with whatever rules exist at your site.
-- DeploymentApplicationPath â€“ The path in IIS to which deployment should be run
-- DeploymentCommand â€“ The name of the *deploy.cmd file to run. This should
+- PerformDeploy "“ A boolean which denotes if we should attempt a deploy at all. This keeps our project generic so it can be used on anything.
+- DeploymentURL "“ The URL to which the deployment should run. I'm stuck on IIS6 so this is the MSDeployAgentService URL
+- DeploymentUserName "“ The username to use during the deploy
+- DeploymentPassword "“ The password to use during the deploy. You might want to be more creative about how you get your password to comply with whatever rules exist at your site.
+- DeploymentApplicationPath "“ The path in IIS to which deployment should be run
+- DeploymentCommand "“ The name of the *deploy.cmd file to run. This should
 
 Now for the fun part: adding the new workflow item. If you have a slow computer, say anything slower than the computer from [Voyager](http://thecia.com.au/star-trek/voyager/406a.shtml#specs) then you're going to be sorry you ever opened this workflow. Scroll to the very bottom where there is a task for dealing with gated checkins. Our new task is going to go after this. Drag and If from the toolbox. In the conditional we're going to check that we had no build failures and that we should run a deploy:
 
@@ -33,7 +33,7 @@ Now for the fun part: adding the new workflow item. If you have a slow computer,
 
 Now drop in an invoke process to the Then. In the arguments put
 
-<span style="font-style:italic;font-weight:bold;">String.Format(â€œ/M:{0} /U:{1} /P:{2} â€œâ€-setParam:name='IIS Web Application Name',value='{3}'â€" /Y â€œ, DeploymentURL, DeploymentUserName, DeploymentPassword, DeploymentApplicationPath)</span>
+<span style="font-style:italic;font-weight:bold;">String.Format("/M:{0} /U:{1} /P:{2} ""-setParam:name='IIS Web Application Name',value='{3}'"" /Y ", DeploymentURL, DeploymentUserName, DeploymentPassword, DeploymentApplicationPath)</span>
 
 File name:
 

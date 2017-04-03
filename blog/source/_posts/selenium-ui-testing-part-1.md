@@ -9,7 +9,7 @@ I had a bug to fix earlier this week which was really just a UI bug. The details
 
 This is the part where I warn you that I really have no idea what I'm doing, I'm no selenium expert and I'll probably change my mind about how to best implement it. I'll post updates as I change my mind.
 
-I started by installing the selenium IDE and, on another computer, the remote control. The IDE is just a plugin for firefox while the RC is a java based tool which happily runs on windows. I opened up a port for it in the windows firewallâ€¦ oh who am I kidding I turned the damn thing off.
+I started by installing the selenium IDE and, on another computer, the remote control. The IDE is just a plugin for firefox while the RC is a java based tool which happily runs on windows. I opened up a port for it in the windows firewall"¦ oh who am I kidding I turned the damn thing off.
 
 [![](http://stimms.files.wordpress.com/2010/12/seleniumide1.png?w=300)](http://stimms.files.wordpress.com/2010/12/seleniumide1.png)I recorded a number of actions using the IDE and added a number of verifications(you can add a check by right clicking on an element and selecting one of the verify options in there). I don't consider these to be unit tests since they tend to cross over multiple pages. What I'm creating are work flow tests or behavioral tests. These could be used as part of BDD in conjunction with a tool such as [Cucumber](http://cukes.info/) or [SpecFlow](http://www.specflow.org/). As such I don't really care how long these tests take to run, I don't envision them being run as part of our continuous integration process but rather as part of hourly builds. If things really get out of hand(and they won't our application isn't that big) then the tests can be distributed over a number of machines and even run in the cloud on some Amazon instances.
 
@@ -20,7 +20,7 @@ I'll let you know what I come up with. Chances are it will be crazy, because sen
 **Useful Blogs**
 
 - [Design of Selenium tests for Asp.net](http://code.google.com/p/design-of-selenium-tests-for-asp-net/)A blog with some specific suggestions about how to work with selenium and asp.net. I'm not in 100% agreement with his ideas but I might change my mind later.
-- [Adam Goucher's blog](http://adam.goucher.ca/) â€“ Adam is a hell of a nice guy who has been helping me out with Selenium on the twitter.
+- [Adam Goucher's blog](http://adam.goucher.ca/) "“ Adam is a hell of a nice guy who has been helping me out with Selenium on the twitter.
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML5 Data Visualizations â€“ Part 3 â€“ Getting Started with RaphaÃ«l
+title: HTML5 Data Visualizations "“ Part 3 "“ Getting Started with RaphaÃ«l
 authorId: simon_timms
 date: 2013-01-11
 ---

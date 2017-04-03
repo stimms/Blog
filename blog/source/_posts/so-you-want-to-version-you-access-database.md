@@ -13,7 +13,7 @@ Next up is that access has a tendency to change things you didn't change. As soo
 
 Finally Access files grow totally out of control. Every time you open the database its size increases seemingly at random. This is probably an extension of the previous point.
 
-Access is a nightmare to work with, an absolute nightmare. I have no secret inside knowledge about what Microsoft is doing with Access and Office in general but I suspect that desktop versions of office have a limited future. There have been no real updates to the programming model inâ€¦ well ever as far as I can tell.
+Access is a nightmare to work with, an absolute nightmare. I have no secret inside knowledge about what Microsoft is doing with Access and Office in general but I suspect that desktop versions of office have a limited future. There have been no real updates to the programming model in"¦ well ever as far as I can tell.
 
 Okay well let's put the project under source control and then I'll talk a bit about how this improves our life. I'll be using TFS for the source control because we might as well give ourselves a challenge and have twonightmares to deal with.
 
@@ -21,7 +21,7 @@ The first thing you'll need is the [access MSSCCI extensions](http://visualstudi
 
 <div class="wp-caption aligncenter" id="attachment_2630" style="width: 760px">[![Menu bar additions](http://stimms.files.wordpress.com/2013/04/menubar.jpg)](http://stimms.files.wordpress.com/2013/04/menubar.jpg)Menu bar additions
 
-</div>Open up your current database and click the button marked Add Database to Team Foundation. You'll be prompted for your TFS information. Once that's been entered access will spool up and create a zillion files in source control for you. This confused us a lot when we first did it because none of the files created were mdb or accdb files: the actual database. Turns out the way it works is that the files in source control are mapped, one to one, with objects in the database. To create a â€œbuildâ€ of the database you have to click on the â€œCreate from Team Foundationâ€ button. This pulls down all the files and recombines them into the database you love.
+</div>Open up your current database and click the button marked Add Database to Team Foundation. You'll be prompted for your TFS information. Once that's been entered access will spool up and create a zillion files in source control for you. This confused us a lot when we first did it because none of the files created were mdb or accdb files: the actual database. Turns out the way it works is that the files in source control are mapped, one to one, with objects in the database. To create a "build" of the database you have to click on the "Create from Team Foundation" button. This pulls down all the files and recombines them into the database you love.
 
 <div class="wp-caption aligncenter" id="attachment_2631" style="width: 473px">[![Selecting the TFS source (identifying information removed)](http://stimms.files.wordpress.com/2013/04/select-source.jpg)](http://stimms.files.wordpress.com/2013/04/select-source.jpg)Selecting the TFS source (identifying information removed)
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML5 Data Visualizations â€“ Part 4 â€“ Creating a component with RaphaÃ«l and TypeScript
+title: HTML5 Data Visualizations "“ Part 4 "“ Creating a component with RaphaÃ«l and TypeScript
 authorId: simon_timms
 date: 2013-01-16
 ---

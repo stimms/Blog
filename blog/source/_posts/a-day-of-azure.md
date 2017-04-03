@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-04-11
 ---
 
-Have you guys heard about this Azure thing but not sure what it is? Did your boss read an article about â€œThe Cloudâ€ in a 3 years old copy of CIO Magazine he found while waiting for Tip Top Tailors to fashion a suit of sufficient size to contain his gigantic, non-technical girth? Know all about Azure but haven't had a chance yet to try it out?
+Have you guys heard about this Azure thing but not sure what it is? Did your boss read an article about "The Cloud" in a 3 years old copy of CIO Magazine he found while waiting for Tip Top Tailors to fashion a suit of sufficient size to contain his gigantic, non-technical girth? Know all about Azure but haven't had a chance yet to try it out?
 
 <div class="wp-caption aligncenter" id="attachment_2572" style="width: 332px">[![Source: http://www.itstrulyrandom.com/2008/02/07/obese-man-kills-wife-by-sitting-on-her/](http://stimms.files.wordpress.com/2013/04/boss.jpg)](http://stimms.files.wordpress.com/2013/04/boss.jpg)Make me a cloud and waffles, mostly waffles.
 

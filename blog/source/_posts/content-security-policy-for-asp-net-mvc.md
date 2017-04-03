@@ -21,7 +21,7 @@ Next we tie it into ASP.net MVC. You can throw it into the FilterConfig.cs file 
 
 (line 6 is the relevant one)
 
-And you're done! I tested it by throwing in an inline alert(â€˜hi') and found it to be effective. Well effective in Chrome and FireFox. IE10 still merrily threw up an alert. IE10 support is not there yet, perhaps in IE11.
+And you're done! I tested it by throwing in an inline alert("˜hi') and found it to be effective. Well effective in Chrome and FireFox. IE10 still merrily threw up an alert. IE10 support is not there yet, perhaps in IE11.
 
 There is one other good way to add CSP to an ASP.net MVC project and we'll cover that in a future post.
 

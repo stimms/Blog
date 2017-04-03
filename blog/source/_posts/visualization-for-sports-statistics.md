@@ -25,7 +25,7 @@ Today I'm going to look at a best of series. These are very common and are typic
 
 The graphic they use is pretty good at giving the teams playing. It is clear which teams are playing against each other and, if you're fan enough to go to nhl.com, the logos are obvious. The next game in the series is also obvious. However the number of games won by each team in the series isn't. My eye is drawn to the number under the team abbreviation. This is actually the standing of the team in the regular season. For the series on the left it is relatively apparent this isn't the information for which I'm looking: there can be no one team with 5 wins. The series on right is less obvious. Boston could well be leading 4-1.
 
-Instead of putting in â€œBOS LEADS 3 â€“ 0â€³ we could put in an easy visualization.
+Instead of putting in "BOS LEADS 3 "“ 0"³ we could put in an easy visualization.
 
 <div class="wp-caption aligncenter" id="attachment_2812" style="width: 715px">[![Eeek, I am not good at paint](http://stimms.files.wordpress.com/2013/06/nhl1.jpg)](http://stimms.files.wordpress.com/2013/06/nhl1.jpg)Eeek, I am not good at paint
 

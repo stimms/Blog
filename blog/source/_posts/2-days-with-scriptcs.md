@@ -24,7 +24,7 @@ I had a lot of fun not having access to Intellisense. At first I was concerned t
 
 It was easy to define classes within my scripts something I find cumbersome in some other scripting languages. The ability to properly encapsulate functionality was a joy.
 
-I didn't try it but I bet you would have no problem integrating unit tests into your scripts which puts you a huge step up on bashâ€¦ is there a unit testing framework for bash? (Yep there is:[https://github.com/spbnick/epoxy](https://github.com/spbnick/epoxy)).
+I didn't try it but I bet you would have no problem integrating unit tests into your scripts which puts you a huge step up on bash"¦ is there a unit testing framework for bash? (Yep there is:[https://github.com/spbnick/epoxy](https://github.com/spbnick/epoxy)).
 
 
 # The Not So Good
@@ -56,7 +56,7 @@ The final show stopper for me making more use of ScriptCS is that command line a
 
 scriptcs.exe .test1.csx -increase-awesome=true
 
-the solution seems to be that you have to add â€” to tell scriptcs to use that argument for the script
+the solution seems to be that you have to add "” to tell scriptcs to use that argument for the script
 
 scriptcs.exe .test1.csx -- -increase-awesome=true
 
@@ -65,7 +65,7 @@ However some version of powershell hate that. The issue is well documented in[ht
 
 # Am I going to Keep Using It?
 
-Well it doesn't look like I'll be getting a full environment any time soon in this job. As such I will likely keep up with ScriptCS. I hate not having a real environment because it means I can't contribute back very well. Although my discovery of C# completion in Sublime might change my mindâ€¦
+Well it doesn't look like I'll be getting a full environment any time soon in this job. As such I will likely keep up with ScriptCS. I hate not having a real environment because it means I can't contribute back very well. Although my discovery of C# completion in Sublime might change my mind"¦
 
 If scriptcs worked on mono(it might, I don't know) and if there was a flag to generate executables from scripts I would be all over it. It is still early in the project and there is a lot of potential. I'll be keeping an eye on the project even if I don't continue to use it.
 

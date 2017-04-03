@@ -13,7 +13,7 @@ I've been Microsoft MVP in ASP.net since April of 2014. I've also written two bo
 
 [![socialData](https://stimms.files.wordpress.com/2012/12/socialdata.jpg)](https://stimms.files.wordpress.com/2012/12/socialdata.jpg) [![mastering](https://stimms.files.wordpress.com/2012/12/mastering.jpeg)](https://stimms.files.wordpress.com/2012/12/mastering.jpeg)
 
-I'm currently working on my third book with [David Paquette](http://www.davepaquette.com/)which we're self-publishing through [LeanPub](https://leanpub.com/evolvinglegacyaspnetapplications). We're offering early access to it as we write it â€“ it's cheaper if you [buy it now](https://leanpub.com/evolvinglegacyaspnetapplications).
+I'm currently working on my third book with [David Paquette](http://www.davepaquette.com/)which we're self-publishing through [LeanPub](https://leanpub.com/evolvinglegacyaspnetapplications). We're offering early access to it as we write it "“ it's cheaper if you [buy it now](https://leanpub.com/evolvinglegacyaspnetapplications).
 
 
 

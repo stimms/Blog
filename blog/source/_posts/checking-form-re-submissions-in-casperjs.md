@@ -21,7 +21,7 @@ To test this you need to intercept the navigation event and make sure it isn't a
 
 If you add this before the test then navigate around an exception will be thrown any time a form is resubmitted automatically. Once your testing is done you can remove the listener with casper.removeAllListeners.
 
-Now on to actually fixing the codeâ€¦
+Now on to actually fixing the code"¦
 
 
 

@@ -9,7 +9,7 @@ A few days back there was a big debate about when to do unit testing and how muc
 
 > New Blog. The Start-Up Trap. [http://t.co/341M4wNDh2](http://t.co/341M4wNDh2)
 > 
-> â€” Uncle Bob Martin (@unclebobmartin) [March 5, 2013](https://twitter.com/unclebobmartin/status/308977353621659648)
+> "” Uncle Bob Martin (@unclebobmartin) [March 5, 2013](https://twitter.com/unclebobmartin/status/308977353621659648)
 
 <script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 

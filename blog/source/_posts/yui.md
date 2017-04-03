@@ -19,7 +19,7 @@ setStyle() addClass() hide() show() ...
 
 - There is binding for events which support binding before (using on), after (after) and instead of (delegate) events. Kind of handy.
 - You can specify the context under which an event handler will run. Probably a bad idea.
-- YUI is heavily modular so if you don't need gesture support or simulate DOM events just don't load those modules. Modules can be rolled up into â€œrollupsâ€
+- YUI is heavily modular so if you don't need gesture support or simulate DOM events just don't load those modules. Modules can be rolled up into "rollups"
 - YUI has some ability to create modules and classes for you. They have an augment function which is about the same as the jQuery .extend method. The classes look to have the ability to bind to change events on properties. So basically every object is an observable.
 - There is a plugin model which implements the mixin pattern. Is mixin a pattern? Maybe it is a language feature.
 - YUI base provides a simple basic object and pretty much everything extends that

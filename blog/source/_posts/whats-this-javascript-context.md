@@ -5,11 +5,11 @@ authorId: simon_timms
 date: 2013-10-03
 ---
 
-I have a little 2 year old son who's is constantly pointing at things and asking â€œWhat's this?â€. I'm a man of the world so I can almost always tell him what it is at which he's pointing. â€œThat's a sinkâ€, â€œThat's the front doorâ€, â€œThat's an experimental faster than light quantum teleportation device I'm using to travel through timeâ€. â€œThat's the huddled masses quivering in fear of my mastery over space timeâ€.
+I have a little 2 year old son who's is constantly pointing at things and asking "What's this?". I'm a man of the world so I can almost always tell him what it is at which he's pointing. "That's a sink", "That's the front door", "That's an experimental faster than light quantum teleportation device I'm using to travel through time". "That's the huddled masses quivering in fear of my mastery over space time".
 
 The one time I have trouble is when he points at a JavaScript function.
 
-â€œWhat's this?â€
+"What's this?"
 
 Well, son, that depends. One of the weirdities of JavaScript is that the context in which a method is written is not, necessarily, the one in which it is run. Let's try that for a second. Here is some simple code which demonstrates two different ways to call a function
 

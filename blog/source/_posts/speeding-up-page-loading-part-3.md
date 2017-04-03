@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Speeding up page loading â€“ Part 3
+title: Speeding up page loading "“ Part 3
 authorId: simon_timms
 date: 2013-12-16
 ---
 
-Welcome to part 3 of my series on speeding up pages loading. The [first ](http://blog.simontimms.com/2013/12/04/speeding-up-page-loading-part-1/ "Speeding up page loading â€“ part1") [two](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading â€“ part2")parts were pretty generic in nature but this one is going to focus in a little bit more on ASP.net. I think the ideas are still communicable to other platforms but the tooling I'm going to use is ASP.net only.
+Welcome to part 3 of my series on speeding up pages loading. The [first ](http://blog.simontimms.com/2013/12/04/speeding-up-page-loading-part-1/ "Speeding up page loading "“ part1") [two](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading "“ part2")parts were pretty generic in nature but this one is going to focus in a little bit more on ASP.net. I think the ideas are still communicable to other platforms but the tooling I'm going to use is ASP.net only.
 
 Most of the applications you're going to write will be backed by a relational database. As websites become more complicated the complexity of queries tends to increase but also the number of queries increases. In .net a lot of the complexity of queries is hidden by abstraction layers like Entity framework and NHibernate. Being able to visualize the queries behind a piece of code which operates on an abstract collection is very difficult. Lazy loading of objects and the nefarious n+1 problem can cause even simple looking pages to become query rich nightmares.
 

@@ -9,7 +9,7 @@ In a code review the other day the topic of when to use var and when to use a no
 
 > Is there any difference between the code produced using var and using, say, string?
 
-I confidently answered â€œNo, it is identical. The type is inferred by the compiler and replacedâ€. But I was thinking about it later and I wondered if I was right.
+I confidently answered "No, it is identical. The type is inferred by the compiler and replaced". But I was thinking about it later and I wondered if I was right.
 
 I created a really simple test program
 

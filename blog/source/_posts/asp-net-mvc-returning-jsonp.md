@@ -9,11 +9,11 @@ I've been working on a piece of code which returns [JSON ](http://www.json.org/)
 
 <span style="font-weight:bold;">JSON</span>:
 
-{â€œuserIDâ€:â€00000000-0000-0000-0000-000000000000â€³,â€successâ€:â€falseâ€}
+{"userID":"00000000-0000-0000-0000-000000000000"³,"success":"false"}
 
 <span style="font-weight:bold;">JSONP</span>:
 
-somefunction({â€œuserIDâ€:â€00000000-0000-0000-0000-000000000000â€³,â€successâ€:â€falseâ€})
+somefunction({"userID":"00000000-0000-0000-0000-000000000000"³,"success":"false"})
 
 Easy enough. In JQuery you need to just add another parameter to the JSON call in order to pass the name of the function to the server
 

@@ -13,11 +13,11 @@ I've never given much thought to code contracts before. I was never too impresse
 
 http://gist.github.com/stimms/6133393
 
-â€œAsserting stuff is all nice and good but it should be caught by unit tests anywayâ€ was my though.I have a lot of respect for Greg so I though I would look into code contracts. I look on them as a sort of extension to interfaces. Interfaces are a programmatic way of describing how an implementation should look. For instance a common interface in the projects I build is ILog which is an interface for logging. It is typically modeled after the ILog interface from Log4Net although it now includes some practices I picked up from my preferred logging framework, NLog.
+"Asserting stuff is all nice and good but it should be caught by unit tests anyway" was my though.I have a lot of respect for Greg so I though I would look into code contracts. I look on them as a sort of extension to interfaces. Interfaces are a programmatic way of describing how an implementation should look. For instance a common interface in the projects I build is ILog which is an interface for logging. It is typically modeled after the ILog interface from Log4Net although it now includes some practices I picked up from my preferred logging framework, NLog.
 
 <script src='https://gist.github.com/stimms/6133566.js'></script>
 
-The compiler guarantees that anything which implements that interface has at least some sort of implementation in place for each one of the defined methods. The compiler doesn't care what the implementation is so long as there is one there. This allows me to create a â€œvalidâ€ implementation which looks like
+The compiler guarantees that anything which implements that interface has at least some sort of implementation in place for each one of the defined methods. The compiler doesn't care what the implementation is so long as there is one there. This allows me to create a "valid" implementation which looks like
 
 <script src='https://gist.github.com/stimms/6133770.js'></script>
 
@@ -25,7 +25,7 @@ This implementation doesn't actually do what I had intended when I specified the
 
 As it turns out finding information on code contracts for C# is really difficult. There have been a couple of efforts over the years to bring code contracts into the .net world. The latest and, seemingly, most successful is as part of the PEX project. There was a burst of videos and activity on that project in 2010 but since then activity seem to have fallen off rather dramatically. Most everything in the code contracts works but it is somewhat flaky on visual studio 2012.
 
-To get started you need to install two visual studio extensions: Code Contracts Tools and Code Contracts Editor Extensions VS2012. You can also install the code digger which displays a table of inputs which are checked for your methods. It is useful but is crippleware compared to how it is shown to work in videos like this [one](http://channel9.msdn.com/Blogs/martinesmann/Code-Contracts-and-Pex-Power-Charge-Your-Assertions-and-Unit-Tests). The tool use to have the ability to generate unit tests but as I understand it this functionality is limited to Visual Studio Ultimate. I'm not fabricated from money so I don't have that. Boo. (well not â€œBooâ€ for not being made from money rather â€œBooâ€ for the restriction. I'm glad I'm not made from money. Money is filthy)
+To get started you need to install two visual studio extensions: Code Contracts Tools and Code Contracts Editor Extensions VS2012. You can also install the code digger which displays a table of inputs which are checked for your methods. It is useful but is crippleware compared to how it is shown to work in videos like this [one](http://channel9.msdn.com/Blogs/martinesmann/Code-Contracts-and-Pex-Power-Charge-Your-Assertions-and-Unit-Tests). The tool use to have the ability to generate unit tests but as I understand it this functionality is limited to Visual Studio Ultimate. I'm not fabricated from money so I don't have that. Boo. (well not "Boo" for not being made from money rather "Boo" for the restriction. I'm glad I'm not made from money. Money is filthy)
 
 <div class="wp-caption aligncenter" id="attachment_2961" style="width: 760px">[![Code contract extensions](http://stimms.files.wordpress.com/2013/08/contracts1.jpg?w=750)](http://stimms.files.wordpress.com/2013/08/contracts1.jpg)Code contract extensions
 

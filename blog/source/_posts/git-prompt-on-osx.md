@@ -9,7 +9,7 @@ I have a bunch of work to do using git on OSX over the next few months and I fig
 
 [![Screen Shot 2014-09-11 at 10.27.43 PM](http://stimms.files.wordpress.com/2014/09/screen-shot-2014-09-11-at-10-27-43-pm.jpg?w=300)](https://stimms.files.wordpress.com/2014/09/screen-shot-2014-09-11-at-10-27-43-pm.jpg)
 
-It is wonderful. I wanted it on OSX. There are actually quite a few tutorials that will get you 90% of the way there. I read one by [Mike O'Brein](http://www.mikeobrien.net/blog/osx-git-bash-prompt/)but I had some issues with it. For some reason the brew installation on my machine didn't include git-prompt. It is possible that nobody's doesâ€¦ clearly a conspiracy. Anyway I found a copy over at the [git repository on github](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh). I put it into my home directory and sourced it in my .profile.
+It is wonderful. I wanted it on OSX. There are actually quite a few tutorials that will get you 90% of the way there. I read one by [Mike O'Brein](http://www.mikeobrien.net/blog/osx-git-bash-prompt/)but I had some issues with it. For some reason the brew installation on my machine didn't include git-prompt. It is possible that nobody's does"¦ clearly a conspiracy. Anyway I found a copy over at the [git repository on github](https://github.com/git/git/blob/master/contrib/completion/git-prompt.sh). I put it into my home directory and sourced it in my .profile.
 
 if [ -f $(brew --prefix)/etc/bash_completion ]; then . $(brew --prefix)/etc/bash_completion fi source ~/.git-prompt PS1="33[32m]@ 33[33m]w$(__git_ps1 " (33[36m]%s33[33m])") n$33[0m] "
 

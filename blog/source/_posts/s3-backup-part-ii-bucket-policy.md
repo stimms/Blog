@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2011-01-04
 ---
 
-This wasn't going to become a series of posts but it is kind of looking like it is going to be that way. I was a bit concerned about the access to my S3 bucket in which I was backup up my files. By default only I have access to the bin but I do tend to be an idiot and might later change the permissions on this bucket indadvertantly. Policy to the rescue! You can set some pretty complex access policies for S3 buckets but really all I wanted was to add a layer of IP address protection to it. You can set policies by right clicking on the bucket in the AWS Manager and selecting properties. In the thing that shows up at the bottom of your screen select â€œEdit bucket policyâ€. I set up this policy
+This wasn't going to become a series of posts but it is kind of looking like it is going to be that way. I was a bit concerned about the access to my S3 bucket in which I was backup up my files. By default only I have access to the bin but I do tend to be an idiot and might later change the permissions on this bucket indadvertantly. Policy to the rescue! You can set some pretty complex access policies for S3 buckets but really all I wanted was to add a layer of IP address protection to it. You can set policies by right clicking on the bucket in the AWS Manager and selecting properties. In the thing that shows up at the bottom of your screen select "Edit bucket policy". I set up this policy
 
   
 {  

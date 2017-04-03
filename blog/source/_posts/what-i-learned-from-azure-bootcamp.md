@@ -19,7 +19,7 @@ Over the weekend I helped run a day long Azure camp. We had about 40 people come
 
 6. Microphones and better projectors. Our room was huge, too big as it turns out. People at the back had trouble hearing and seeing the projector. The obvious solution is to move forward but we should have been proactive at the same time and moved people or invested in some microphones.
 
-7. Something for people who don't have the tools. As always people end up at the camp without the right tools installed. From time to time they can't install the tools because they're using their company's laptop. All the tools for this camp were free so we could easily have set up some VMs on the cloud to let people do development with remote desktop. There would have been a cost but for 10 users for 8 hours on a large instance at Azure the cost would have been $26. I think we could have stretched to that, the only question is â€œwould our bandwidth have stretched?â€
+7. Something for people who don't have the tools. As always people end up at the camp without the right tools installed. From time to time they can't install the tools because they're using their company's laptop. All the tools for this camp were free so we could easily have set up some VMs on the cloud to let people do development with remote desktop. There would have been a cost but for 10 users for 8 hours on a large instance at Azure the cost would have been $26. I think we could have stretched to that, the only question is "would our bandwidth have stretched?"
 
 I think the whole camp went really well and I'm excited about doing another one at some point in the future.
 

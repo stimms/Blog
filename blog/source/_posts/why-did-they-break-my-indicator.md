@@ -9,9 +9,9 @@ My wife got a new car a few weeks ago. It is a pretty nice thing and even has th
 
 <div class="wp-caption aligncenter" id="attachment_2214" style="width: 310px">[![A steering knob](http://stimms.files.wordpress.com/2013/02/default.png?w=300)](http://stimms.files.wordpress.com/2013/02/default.png)A steering knob with indicator stick
 
-</div>As you can tell I'm an artist. What you can't tell from that picture is that I'm also a car expert. So much so that I know that the indicator thingy is known as an â€œIndicator Stickâ€. I'm basically the Senna of Calgary.
+</div>As you can tell I'm an artist. What you can't tell from that picture is that I'm also a car expert. So much so that I know that the indicator thingy is known as an "Indicator Stick". I'm basically the Senna of Calgary.
 
-On every car I've ever driven the indicator works the same way. If you're changing lanes or you don't want the indicator to stay on you can hold it. If you want the indicator to stay on you push it a bit further and it clicks. When you straighten up the steering knob or â€œwheelâ€ the indicator self cancels.
+On every car I've ever driven the indicator works the same way. If you're changing lanes or you don't want the indicator to stay on you can hold it. If you want the indicator to stay on you push it a bit further and it clicks. When you straighten up the steering knob or "wheel" the indicator self cancels.
 
 [![normal](http://stimms.files.wordpress.com/2013/02/normal.png)](http://stimms.files.wordpress.com/2013/02/normal.png)
 

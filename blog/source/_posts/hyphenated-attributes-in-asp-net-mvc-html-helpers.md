@@ -9,7 +9,7 @@ I had the need to emit an HTML attribute today which contained a hyphen. Aside: 
 
 **Dash**
 
-The zombies are coming â€” I'm not afraid.
+The zombies are coming "” I'm not afraid.
 
 **Hyphen**
 
@@ -17,9 +17,9 @@ Zombies are flesh-eaters.
 
 **Both**
 
-The flesh-eating zombies are coming â€” I'm not afraid.
+The flesh-eating zombies are coming "” I'm not afraid.
 
-There are two different dashes too, but we're already pretty far off track here â€” let's reel it in.
+There are two different dashes too, but we're already pretty far off track here "” let's reel it in.
 
 There are actually an infinite number of valid HTML5 attributes which contain hyphens. You can write data-[anything] to add data to an arbitrary data to your elements. I find it to be very useful to have this standard for data attributes. If you're using AngularJS then you'll probably be making use of a lot of ng-* attributes. I came across some trouble when I was trying to emit this data from the HTML helper methods in ASP.net MVC. You can't just do
 

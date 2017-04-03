@@ -9,9 +9,9 @@ I have [previously written](http://blog.simontimms.com/2013/02/27/search-everywh
 
 select * from table_to_search where search_column like '%' + @searchTerm + '%'
 
-This is a very inefficient way to search but when we benchmarked it the performance was well within our requirements even on data sets 5x the size of our current DB. A problem with this sort of search is that it requires that people be very precise with their search. So if the column being searched contains â€œI like to shop at the duty free shopâ€ and they search for â€œduty-freeâ€ then they're not going to get the results for which they're looking. It is also very difficult to scale this over a large number of search columns you have to keep updating the query.
+This is a very inefficient way to search but when we benchmarked it the performance was well within our requirements even on data sets 5x the size of our current DB. A problem with this sort of search is that it requires that people be very precise with their search. So if the column being searched contains "I like to shop at the duty free shop" and they search for "duty-free" then they're not going to get the results for which they're looking. It is also very difficult to scale this over a large number of search columns you have to keep updating the query.
 
-Lucene is an Apache project to provide a real search engine. It has support for everything you would expect in a search engine: stemming, synonyms, ranking,â€¦ It is, however, a bit of a pain tointegratewith your existing application. That's why I like [Elasticsearch](http://www.elasticsearch.org/) so much. It is an HTTP front end for Lucene.
+Lucene is an Apache project to provide a real search engine. It has support for everything you would expect in a search engine: stemming, synonyms, ranking,"¦ It is, however, a bit of a pain tointegratewith your existing application. That's why I like [Elasticsearch](http://www.elasticsearch.org/) so much. It is an HTTP front end for Lucene.
 
 I like having it as a search appliance on projects because it is just somewhere I can dump documents to be indexed for future search even if I don't plan on searching the data right away.
 

@@ -15,7 +15,7 @@ b) I work for The Man
 
 Maybe I'm assuming too much about the thick framed fellows I met at YYCJS but it seemed like a good place to pretend I knew about made up bands and worked for a small socially aware company instead of a huge people-hatingconglomerate. Everybody had a macbook and an android phone. I half fit in.
 
-I guess this was the second half of a series of NodeJS talks â€“ I missed the first half so I could be in big trouble.
+I guess this was the second half of a series of NodeJS talks "“ I missed the first half so I could be in big trouble.
 
 - There is a constant debate between native and web applications
 - Web is still much slower but is catching up at an alarming rate. (Good! -ed.)
@@ -25,7 +25,7 @@ I guess this was the second half of a series of NodeJS talks â€“ I missed t
 - I should hang out here more, Jesus my job is boring.
 - I'm so appreciative that the people demoing make use of the command line.
 - Using the same QR code linking with websockets Oliver showed using a device to draw on a canvas from the phone. Some great applications for that.
-- Oh god, they're talking about nodejs â€“ node your head knowingly. They'll beat you to death with designer beer bottles if you let them know you're hosting on IIS
+- Oh god, they're talking about nodejs "“ node your head knowingly. They'll beat you to death with designer beer bottles if you let them know you're hosting on IIS
 - Oliver has created a framework with another guy called Oliver. The framework is called Olives.
 - Olives is a DOM agnostic MVVM framework. That means that it can be used in Node which has no DOM.
 - Oliver isn't use to a QWERTY keyboard. He is pretty cool so I bet he has his own keyboard mapping. Hardcore

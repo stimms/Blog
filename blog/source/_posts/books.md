@@ -9,7 +9,7 @@ date: 2014-11-23
 
 
 
-2013 â€“ Use a variety of JavaScript technologies to build visualizations of data taken from social media sites. Includes sections on LinkedIn, Facebook and StackOverflow.
+2013 "“ Use a variety of JavaScript technologies to build visualizations of data taken from social media sites. Includes sections on LinkedIn, Facebook and StackOverflow.
 
 
 
@@ -19,7 +19,7 @@ date: 2014-11-23
 
 
 
-2014 â€“ Covers all the original GoF patterns as well as functional patterns, MV* patterns and messaging patterns.
+2014 "“ Covers all the original GoF patterns as well as functional patterns, MV* patterns and messaging patterns.
 
 
 

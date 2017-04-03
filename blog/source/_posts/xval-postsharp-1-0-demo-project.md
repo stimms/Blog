@@ -7,8 +7,8 @@ date: 2009-10-07
 
 After my last post I thought I would look at the demo project for xVal 1.0 and see if I could get it working with PostSharp. It was a little bit differnt in how it way set up from my projects but I figured it could still be improved with PostSharp. My first issue was that the method I was intercepting was in the entity itself rather than in a repository. This meant that there were methods in the entity which I didn't wish to intercept. There were two classes of those
 
-1. Accessor methods â€“ we don't need to intercept getters
-3. Internal methods â€“ ASP.net MVC uses reflection to examine the internals of the data classes in order to bind form results to them. We can avoid intercepting these by ignoring methods which start with â€˜.'
+1. Accessor methods "“ we don't need to intercept getters
+3. Internal methods "“ ASP.net MVC uses reflection to examine the internals of the data classes in order to bind form results to them. We can avoid intercepting these by ignoring methods which start with "˜.'
 
 Next because the entity already contained all of the data it needed to persist the persistance method didn't have any arguments. In the previous post I assumed that this would always be the case. You know what they say about assuming: if you assume you make a jerk out of everybody in Venice. Pretty sure that is the saying.
 

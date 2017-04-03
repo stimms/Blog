@@ -7,7 +7,7 @@ date: 2009-06-22
 
 I wasn't really planning a part II to this article but I left the code in something of a mess and we can do much better than having to write a bunch of javascript each time we need to make a graph. Let's use the HtmlHelper and extension methods. The HtmlHelper is a class in System.Web.Mvc which is often extended to supply shortcuts for writing out HTML. xVal extends it to add client side validation and we're going to do the same thing to write out the javascript for our graphs. We start by creating a new extension class to complement HtmlHelper
 
-  
+```csharp
 public static class HTMLExtensions  
  {  
  public static string BarGraph(this HtmlHelper helper, string divName, IDictionary dataPoints)  
@@ -63,6 +63,7 @@ public static class HTMLExtensions
  }  
   
  }
+ ```
 
 This class is a bit of a mess of string appending but hopefully changes to it will be infrequent. I know somebody is going to jump on my string appending but before you do take a read of Jeff Atwood's excellent examination of [micro optimization](http://www.codinghorror.com/blog/archives/001218.html). The key take away is that all the messy javascript generation which we did have in the views is now centralized into one place.
 

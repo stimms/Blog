@@ -23,7 +23,7 @@ Next create a connection
 
 <script src='https://gist.github.com/stimms/9815842.js'></script>
 
-The product header values seems to just be any value you want. I'm sure there is some reason behind it but who knows whatâ€¦ Now we need to get the octokit client based on this connection.
+The product header values seems to just be any value you want. I'm sure there is some reason behind it but who knows what"¦ Now we need to get the octokit client based on this connection.
 
 <script src='https://gist.github.com/stimms/9815882.js'></script>
 

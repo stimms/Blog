@@ -5,16 +5,16 @@ authorId: simon_timms
 date: 2013-12-04
 ---
 
-I started to take a look at a bug in my software last week which was basically â€œstuff is slowâ€. Digging more I found that the issue was that pages, especially the dashboard were loading very slowly. This is a difficult problem to definitively solve because page loading speed is somewhat subjective.
+I started to take a look at a bug in my software last week which was basically "stuff is slow". Digging more I found that the issue was that pages, especially the dashboard were loading very slowly. This is a difficult problem to definitively solve because page loading speed is somewhat subjective.
 
 We don't have any specifications about how quickly a page needs to load on the site. Less than 5 seconds? Less than 2 seconds? Such a thing is difficult to define because all too often we fail to define for whom the page loading should be quick. Loading is governed by any number of factors
 
-- time taken to build the HTML for the view (excuse the MVC style language â€“ the same token replacement needs to be done on most frameworks)
+- time taken to build the HTML for the view (excuse the MVC style language "“ the same token replacement needs to be done on most frameworks)
 - speed of the server
 - speed of the connection from the server to the client
 - bandwidth between the client and the server
 - speed of the client to render the HTML
-- â€¦
+- "¦
 
 The list is pretty daunting so I thought I would write about what I did to improve the speed of my application.
 
@@ -23,7 +23,7 @@ The application is a pretty standard ASP.net MVC application with minimal fron e
 This post became quite long so I've split it into a number of parts.
 
 1. Bundling CSS/JS  
- 2. [Removing images](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading â€“ part2")  
+ 2. [Removing images](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading "“ part2")  
  3. Reducing Queries  
  4. Speeding Queries
 
@@ -36,7 +36,7 @@ A web page is made up of a number of components each of which has to be retrieve
 
 I started on the slowest loading page: the dashboard. We're not live yet but it is embarrassing that on our rather limited testing data we're seeing page load times on the order of 15 seconds. It should never have got this far out of control. Performance is a feature and we should have been checking performance as we built the page. Never mind, we'll jump on this now.
 
-My tool of choice for this is normally Google Chrome but I thought I might give IE11â€²s F12 tools a try. A lot of effort has been put in my Microsoft to improve Internet Explorer in the past few years and IE11 is really quite good. I have actually found myself in a position where I'm defending how good IE is now to other developers. I never imagined I would be in this position a couple of years ago, but I digress.
+My tool of choice for this is normally Google Chrome but I thought I might give IE11"²s F12 tools a try. A lot of effort has been put in my Microsoft to improve Internet Explorer in the past few years and IE11 is really quite good. I have actually found myself in a position where I'm defending how good IE is now to other developers. I never imagined I would be in this position a couple of years ago, but I digress.
 
 You can get access to the developer tools by hitting F12 and pressing the play button then reloading the page. This will result in something like this:
 

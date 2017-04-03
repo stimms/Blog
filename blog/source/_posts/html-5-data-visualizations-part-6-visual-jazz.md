@@ -1,11 +1,11 @@
 ---
 layout: post
-title: HTML 5 Data Visualizations â€“ Part 6 â€“ Visual Jazz
+title: HTML 5 Data Visualizations "“ Part 6 "“ Visual Jazz
 authorId: simon_timms
 date: 2013-01-29
 ---
 
-<span style="background-color:lightyellow;border-color:#E6DB55;border:solid 1px;display:block;">**Note**: I will be presenting a talk on data visualization in HTML5 on February the 14th at the Calgary .net user group. Keep an eye on[http://www.dotnetcalgary.com/](http://www.dotnetcalgary.com/) for details. This blog is one in a series which will make up the talk I will be giving.</span> I'm planning for this to be the finalinstillmentof this series. However, I've enjoyed playing with d3.js so much that I will very likely make visualization using it an ongoing theme on this blog. I've never considered myself much of an artist, as my poor school teachers can attest, but I do like this visualization design. In the last part of the series we figured out how to make a simple bar chart using d3.js. But this isn't going to impress your boss because your boss read an article last week about HTML5 and how it is better than excel(I swear to you there are articles like this in â€œBoss Magazineâ€ and â€œPointy Hair Weeklyâ€). The graph we made could have been created in excel so lets jazz it up a bit.
+<span style="background-color:lightyellow;border-color:#E6DB55;border:solid 1px;display:block;">**Note**: I will be presenting a talk on data visualization in HTML5 on February the 14th at the Calgary .net user group. Keep an eye on[http://www.dotnetcalgary.com/](http://www.dotnetcalgary.com/) for details. This blog is one in a series which will make up the talk I will be giving.</span> I'm planning for this to be the finalinstillmentof this series. However, I've enjoyed playing with d3.js so much that I will very likely make visualization using it an ongoing theme on this blog. I've never considered myself much of an artist, as my poor school teachers can attest, but I do like this visualization design. In the last part of the series we figured out how to make a simple bar chart using d3.js. But this isn't going to impress your boss because your boss read an article last week about HTML5 and how it is better than excel(I swear to you there are articles like this in "Boss Magazine" and "Pointy Hair Weekly"). The graph we made could have been created in excel so lets jazz it up a bit.
 
 
 # Animation
@@ -15,7 +15,7 @@ To start with let's animation which is super simple with transitions. You can an
 
 # Interaction
 
-Animation are all very well and are great for leveraging the [halo effect](http://en.wikipedia.org/wiki/Halo_effect)to ensure that people are enthusiastic about your application, but they aren't all that useful overall.Fortunately, d3.js defines the ability to add event listeners to your visualizationpermitting interaction. When I first played with them I used them to change the colours on bars as of the graph as I hovered over them. In his D3 book â€œInteractive Data Visualizationâ€ [Scott Murray](http://twitter.com/alignedleft)points out that this effect can be better created using only CSS' hover pseudo selector. That's unfortunate because up until I read that section it was going to be my example. Instead let's try adding extra information to the bar.
+Animation are all very well and are great for leveraging the [halo effect](http://en.wikipedia.org/wiki/Halo_effect)to ensure that people are enthusiastic about your application, but they aren't all that useful overall.Fortunately, d3.js defines the ability to add event listeners to your visualizationpermitting interaction. When I first played with them I used them to change the colours on bars as of the graph as I hovered over them. In his D3 book "Interactive Data Visualization" [Scott Murray](http://twitter.com/alignedleft)points out that this effect can be better created using only CSS' hover pseudo selector. That's unfortunate because up until I read that section it was going to be my example. Instead let's try adding extra information to the bar.
 
 This ended up being way more complex than I had originally planned so let's build it up nice and slow. The first thing is that we add some additional information to each of the month bars. Here we've added weekly percentages to each month.
 

@@ -17,7 +17,7 @@ I used these as the data sources:
 
 Toronto 126mm -[http://www.cbc.ca/news/canada/toronto/story/2013/07/09/toronto-rain-flooding-power-ttc.html](http://www.cbc.ca/news/canada/toronto/story/2013/07/09/toronto-rain-flooding-power-ttc.html)
 
-Calgary45mm â€“ [http://www.cbc.ca/news/canada/calgary/story/2013/06/21/f-alberta-floods.html](http://www.cbc.ca/news/canada/calgary/story/2013/06/21/f-alberta-floods.html)
+Calgary45mm "“ [http://www.cbc.ca/news/canada/calgary/story/2013/06/21/f-alberta-floods.html](http://www.cbc.ca/news/canada/calgary/story/2013/06/21/f-alberta-floods.html)
 
 Mumbai 181.1mm -[http://www.dnaindia.com/mumbai/1845996/report-mumbai-gets-its-third-highest-rainfall-for-june-in-a-decade-at-181-1-mm](http://www.dnaindia.com/mumbai/1845996/report-mumbai-gets-its-third-highest-rainfall-for-june-in-a-decade-at-181-1-mm)
 

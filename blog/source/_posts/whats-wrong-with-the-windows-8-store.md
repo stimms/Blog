@@ -19,13 +19,13 @@ WTF, I got that privacy policy in there. Oh there is a password requirementburie
 
 Oh come on, now what? Oh it is in the wrong category. What? It is a blog and I put it in books. A blog is sort of like a book. Well I'm sure they gave me guidance as to which category it should be in. Oh, nope they didn't bother with that. Jerks. I suppose I'll guess again since there is zero guidance out there on which category to put things in.
 
-What is pissing me off is that each one of these rejections costs me 3 days of waiting. If they had bothered to test the entire application the first time and written down all the problems then we wouldn't be in this rejection cycle.There is a concept in computing called â€œfail fastâ€ the theory being that if you fail quickly instead of trying to compensate you can get problems solved while they are still small. This isn't a place where that theory should be applied. The long approval cycle time removes allbenefitfrom failing fast. TELL ME EVERYTHING UP FRONT.
+What is pissing me off is that each one of these rejections costs me 3 days of waiting. If they had bothered to test the entire application the first time and written down all the problems then we wouldn't be in this rejection cycle.There is a concept in computing called "fail fast" the theory being that if you fail quickly instead of trying to compensate you can get problems solved while they are still small. This isn't a place where that theory should be applied. The long approval cycle time removes allbenefitfrom failing fast. TELL ME EVERYTHING UP FRONT.
 
 <iframe allowfullscreen="" frameborder="0" height="267" src="http://www.youtube.com/embed/yMQhXc1dHIQ?feature=oembed" width="474"></iframe>
 
 That the app was in the wrong category should have been instantly apparent to whatever people they have approving apps. That could have been easily fixed if it had been mentioned in the first rejection, same with the login.
 
-While I'm bitching let me say that I'm sick of signing into the store. Every fricking action needs me to sign in. Run the app through the validation process? Sign in. Create a new app? Sign in. Check on the progress of your app? Sign in. Go to the store? Sign in. Can we maybe come up with a shared key store or at least remember the god damn password within Visual Studio? After developing an app I had to throw out my keyboard as a security risk â€” all the keys used for my password were worn down.
+While I'm bitching let me say that I'm sick of signing into the store. Every fricking action needs me to sign in. Run the app through the validation process? Sign in. Create a new app? Sign in. Check on the progress of your app? Sign in. Go to the store? Sign in. Can we maybe come up with a shared key store or at least remember the god damn password within Visual Studio? After developing an app I had to throw out my keyboard as a security risk "” all the keys used for my password were worn down.
 
 
 # What can be done to fix it
@@ -40,7 +40,7 @@ While I'm bitching let me say that I'm sick of signing into the store. Every fri
 
 5. During the automated testing of the app it should be apparent that the app is talking to a network. You could flag the lack of privacy policy there. It is an easy fix and would have saved me a whole rejection.
 
-6. If you're using approvals/day as metric for the testers stop it. Crossing well into the world of supposition here I bet that some middle manager at Microsoft has looked at the approval process and said â€œwe need to instrument thisâ€. The obvious metric is how many apps a tester looks at in a day. By instrumenting this they are actually encouraging testers to quickly fail things and not test themthoroughly. That isn't thebehavioryou want. Instrument something else.
+6. If you're using approvals/day as metric for the testers stop it. Crossing well into the world of supposition here I bet that some middle manager at Microsoft has looked at the approval process and said "we need to instrument this". The obvious metric is how many apps a tester looks at in a day. By instrumenting this they are actually encouraging testers to quickly fail things and not test themthoroughly. That isn't thebehavioryou want. Instrument something else.
 
 This is stuff which needs to be done now. Windows 8 is shaping up to be a bigger disaster than Vista and improving theexperiencefor developers should be high on the list of things to do. I don't have to put up with this bullshit when I deploy my app through apt-get or chocolatey nuget. The advantage of having my app in the windows store is pretty small from what I can see. I would rather distribute a classic app through traditional channels than deal with the windows store again.
 

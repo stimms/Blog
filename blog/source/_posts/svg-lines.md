@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-06-13
 ---
 
-I know what you're thinking: you're thinking that the lines in an SVG image are pretty boring and how did I get a whole post out of this? Actually lines have some interesting properties in SVG which makes them super-cool(you have to say super-cool with a French accent â€“ the oxymoronic nature of being both French and cool is delicious).
+I know what you're thinking: you're thinking that the lines in an SVG image are pretty boring and how did I get a whole post out of this? Actually lines have some interesting properties in SVG which makes them super-cool(you have to say super-cool with a French accent "“ the oxymoronic nature of being both French and cool is delicious).
 
 Up first is that you can specify line endings for any line. If you've done work with PowerPoint or any sort of graph software then you'll have seen lines with arrows at the end. In SVG you can actually end line with any shape you want. Firs you need to specify a marker then apply it to a line. For a normal arrow ending you just need to specify a quick triangular path.
 
@@ -31,7 +31,7 @@ Will get you
 
 The next cool thing is that you can specify a dotted line. This is easily done with thestroke-dasharray attribute.
 
-[![dotted](http://stimms.files.wordpress.com/2013/06/dotted.jpg)](http://stimms.files.wordpress.com/2013/06/dotted.jpg)This line is created with a value of 10,10. That's 10 pixels of line then 10 pixels of space. The hilarious thing is that you can specify very complex pattern of dots and dashes. Each alternate number is either a space or a visible part of the line. For instance this is how it looks with a value ofstroke-dasharray=â€3,3,3,3,3,3,10,10,10,10,10,10,3,3,3,3,3,3â€³.
+[![dotted](http://stimms.files.wordpress.com/2013/06/dotted.jpg)](http://stimms.files.wordpress.com/2013/06/dotted.jpg)This line is created with a value of 10,10. That's 10 pixels of line then 10 pixels of space. The hilarious thing is that you can specify very complex pattern of dots and dashes. Each alternate number is either a space or a visible part of the line. For instance this is how it looks with a value ofstroke-dasharray="3,3,3,3,3,3,10,10,10,10,10,10,3,3,3,3,3,3"³.
 
 [![sos](http://stimms.files.wordpress.com/2013/06/sos.jpg)](http://stimms.files.wordpress.com/2013/06/sos.jpg)For the very observant you may recognize this pattern as SOS in Morse code.
 

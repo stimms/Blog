@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-12-02
 ---
 
-The Azure team accepts requests for new features on their user voice voice page. I have spent an awful lot of votes on this request â€œ[Allow Content-Disposition http header on blobs](http://feedback.windowsazure.com/forums/217298-storage/suggestions/3866819-allow-content-disposition-http-header-on-blobs)â€œ. Well now it has been released!
+The Azure team accepts requests for new features on their user voice voice page. I have spent an awful lot of votes on this request "[Allow Content-Disposition http header on blobs](http://feedback.windowsazure.com/forums/217298-storage/suggestions/3866819-allow-content-disposition-http-header-on-blobs)". Well now it has been released!
 
 Why am I so excited about this? Well when I put files up into storage in order to avoid name conflicts I typically use a random file name such as a GUID and then store that GUID somewhere so I can easily look up the file and access it. The problem arises when I try to let people directly download file from blob storage, they get a file which is named as a random string of characters. That isn't very user friendly. Directly accessing blob storage lets me offload the work from my web servers and onto any number of storage servers. So I don't want to abandon that either. Content disposition lets me hijack the name of the file which is downloaded.
 

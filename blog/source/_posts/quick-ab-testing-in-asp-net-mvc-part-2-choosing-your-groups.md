@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2014-01-14
 ---
 
-<div style="background-color:#f8f8f8;">This blog is the second in a series about how to implement A/B testing easily in ASP.net MVC by using Redis1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC â€“ Part 1 Using 2Pages")
+<div style="background-color:#f8f8f8;">This blog is the second in a series about how to implement A/B testing easily in ASP.net MVC by using Redis1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC "“ Part 1 Using 2Pages")
 2. Choosing your groups
 3. Storing user clicks
 4. Seeing your data

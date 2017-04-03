@@ -31,8 +31,8 @@ public async void Post()
 
 The mail message which is returned is an extension of the standard System.Net.MailMessage. It adds a couple of extra fields which are postmark specific
 
--MessageId â€“ the ID of the message from postmark  
- -Date â€“ the date of the message (see the issues section)
+-MessageId "“ the ID of the message from postmark  
+ -Date "“ the date of the message (see the issues section)
 
 There is a sample project in git which makes use of WebAPI. And that's all I have to say about that.
 

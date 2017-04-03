@@ -39,7 +39,7 @@ If features are very small and short lived then branching remains an option. In 
 
 # Branching to SupportMultipleReleases
 
-I think this is a totally legitimate use of branching and a terrible place to use feature flags. The reason here is that the changes to the maintenance branch are always enabled. You would never want to put in a change to maintenance branch which wouldn't be enabled right away. Source control systems like git are magnificent at merging between code bases. I remember merging between branches in ClearCase and in Subversion. These legacy source control systems were not good at this uses case â€“ it was almost always easier to just manually make the changes in two places. It is really difficult to scale beyond two releases. When I was working with ClearCase we supported about 10simultaneousreleases. It was not fun.
+I think this is a totally legitimate use of branching and a terrible place to use feature flags. The reason here is that the changes to the maintenance branch are always enabled. You would never want to put in a change to maintenance branch which wouldn't be enabled right away. Source control systems like git are magnificent at merging between code bases. I remember merging between branches in ClearCase and in Subversion. These legacy source control systems were not good at this uses case "“ it was almost always easier to just manually make the changes in two places. It is really difficult to scale beyond two releases. When I was working with ClearCase we supported about 10simultaneousreleases. It was not fun.
 
 
 # Branching to Shelve Work
@@ -49,7 +49,7 @@ Again legitimate. When something more important comes along you may not have tim
 
 # Quality Branches
 
-I don't really think these differ much from feature branches. It is just a mechanism for promoting code between environments. Feature flags are a better choice here as they give better granularity for promotion and avoid the nightmare that is trying to isolate, at merge time what needs to be promoted. Merging upstream is a difficult problem. I've seen it used before in environments which strongly regulate what goes into production. We had terrible issues with merging and breaking upstream code. It was especiallyproblematicas this was many years ago before automated testing had really caught on. We did a lot of â€œemergencyâ€ fixes.
+I don't really think these differ much from feature branches. It is just a mechanism for promoting code between environments. Feature flags are a better choice here as they give better granularity for promotion and avoid the nightmare that is trying to isolate, at merge time what needs to be promoted. Merging upstream is a difficult problem. I've seen it used before in environments which strongly regulate what goes into production. We had terrible issues with merging and breaking upstream code. It was especiallyproblematicas this was many years ago before automated testing had really caught on. We did a lot of "emergency" fixes.
 
 
 # Supporting Multi Environment Development

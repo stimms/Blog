@@ -25,7 +25,7 @@ Now that I had the application working the way I wanted and passing the validati
 
 Weirdly Microsoft validate your credit card by charging a small amount then refund it and use it as a method of validating your account. They require that you enter the amount charged to validate your account. This means that if, like me, your bank sucks at posting charges with any rapidity you'll be stuck waiting.
 
-When setting up the application you have to enter a stunning amount of meta-data about where you want your app advertised, which age groups, what category, whether it contains cryptographyâ€¦ it wasoverwhelming and at least half the stuff could have been replaced by setting some reasonable defaults.
+When setting up the application you have to enter a stunning amount of meta-data about where you want your app advertised, which age groups, what category, whether it contains cryptography"¦ it wasoverwhelming and at least half the stuff could have been replaced by setting some reasonable defaults.
 
 At last I got to the point where I could submit my app for publishing.Yay! Now I can sit here and wait. And wait.
 

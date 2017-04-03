@@ -30,7 +30,7 @@ This is another dump of my notes from a talk at Prairie Dev Con. This is David P
 - When editing an entity you need to mark the state as modified _dbContext.Somethings(entity).State = EntityState.Modified.
 - You can specify a database initializer where you can have it delete and recreate a database or add default data
 - You can profile your applications using MiniProfiler.MVC which is a lightweight profiler from Stackoverflow. To hook in EF include MiniProfiler.EF
-- You can to eager loading by specifying .Include(â€œSomething.Commentsâ€) this would load the comments collection for Something
+- You can to eager loading by specifying .Include("Something.Comments") this would load the comments collection for Something
 - Projections can be used to trim down what is returned form the database
 - Paging is implemented using Skip and Take
 

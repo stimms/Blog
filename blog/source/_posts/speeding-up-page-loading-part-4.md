@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Speeding up page loading â€“ Part 4
+title: Speeding up page loading "“ Part 4
 authorId: simon_timms
 date: 2013-12-23
 ---
 
-In the [first](http://blog.simontimms.com/2013/12/04/speeding-up-page-loading-part-1/ "Speeding up page loading â€“ part1") [three](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading â€“ part2") [parts](http://blog.simontimms.com/2013/12/16/speeding-up-page-loading-part-3/ "Speeding up page loading â€“ Part3") of this series we looked at JavaScript and CSS optimizations, image reduction and query reduction. In this part we'll look at some options around optimizing the actual queries. I should warn you straight up that I am not a DBA. I'm only going to suggest the simplest of things, if you need to do some actual query optimizations then please consult with somebody who really understands this stuff like [Mike DeFehr](http://mikedefehr.com/)or [Markus Winand](http://use-the-index-luke.com/).
+In the [first](http://blog.simontimms.com/2013/12/04/speeding-up-page-loading-part-1/ "Speeding up page loading "“ part1") [three](http://blog.simontimms.com/2013/12/09/speeding-up-page-loading-part-2/ "Speeding up page loading "“ part2") [parts](http://blog.simontimms.com/2013/12/16/speeding-up-page-loading-part-3/ "Speeding up page loading "“ Part3") of this series we looked at JavaScript and CSS optimizations, image reduction and query reduction. In this part we'll look at some options around optimizing the actual queries. I should warn you straight up that I am not a DBA. I'm only going to suggest the simplest of things, if you need to do some actual query optimizations then please consult with somebody who really understands this stuff like [Mike DeFehr](http://mikedefehr.com/)or [Markus Winand](http://use-the-index-luke.com/).
 
 The number of different queries run on a site is probably smaller than you think. Certainly most pages on your site are, after the optimizations from part 3, going to be running only a couple of queries with any frequency. Glimpse will let you know what the queries are but, more importantly, it will show you how long each query takes to execute. 
 

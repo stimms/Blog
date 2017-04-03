@@ -33,13 +33,13 @@ Your git repository now knows a bit about TFS. All you need to do now is push yo
 
 git tf checkin --deep
 
-This will push all the commits on the mainline of your git repo up into TFS. Without the â€“deep flag only the latest commit will be submitted.
+This will push all the commits on the mainline of your git repo up into TFS. Without the "“deep flag only the latest commit will be submitted.
 
 There are a couple of gotchas around branching. You may get this error:
 
 git-tf: cannot check in - commit 70350fb has multiple parents, please rebase to form a linear history or use --shallow or --autosquash
 
-You canflattenyour branches by either rebasing or by passing git-tf the â€“autosquash flag which will attempt to flatten the branching structure automatically. I'm told that autosquashing can consume a lot of memory if there are a lot of commits in the repository. I have not had any issue but my repositories are small and my machine has 16GB of memory.
+You canflattenyour branches by either rebasing or by passing git-tf the "“autosquash flag which will attempt to flatten the branching structure automatically. I'm told that autosquashing can consume a lot of memory if there are a lot of commits in the repository. I have not had any issue but my repositories are small and my machine has 16GB of memory.
 
 Now you have move all your source code over to TFS. Yay.
 

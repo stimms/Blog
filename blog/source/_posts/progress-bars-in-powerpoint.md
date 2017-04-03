@@ -7,7 +7,7 @@ date: 2013-01-15
 
 From time to time I find that I have to create PowerPoint presentations. I don't like it and I'd much rather use a tool like [Impress.js](http://bartaz.github.com/impress.js/)or [deck.js](http://imakewebthings.com/deck.js)or better yet not use slides at all.Unfortunatelypeople have grown to expect slides and while javascript options are cool they aren't maintainable by the non-programmers in my group. One of the pieces of advice my wife gave me about presentations is to put the slide number and total number of slides on the bottom of each slide.
 
-> â€œIf you're going to make people suffer through your presentations you can at least give them the hope of knowing how much longer it will lastâ€
+> "If you're going to make people suffer through your presentations you can at least give them the hope of knowing how much longer it will last"
 
 -My Wife
 

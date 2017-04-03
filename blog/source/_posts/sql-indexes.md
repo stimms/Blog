@@ -24,7 +24,7 @@ SET STATISTICS IO ON
 
 - Index seek is just a traversal though the index using a binary search
 - If the data in an index is properly sorted the you can pull out chunks without having to worry about running a sort operation. This makes the fields indexed super important
-- Using keyboard options in the management studio allows you to insert the highlighted portion as an option to some code so you can put â€œselect * fromâ€ in the shortcuts then you can highlight a table name in the editor and hit the shortcut to select * from that table
+- Using keyboard options in the management studio allows you to insert the highlighted portion as an option to some code so you can put "select * from" in the shortcuts then you can highlight a table name in the editor and hit the shortcut to select * from that table
 - Download and use [this stored proc ](http://www.sqlskills.com/blogs/kimberly/use-this-sp_helpindex-rewrites/)for analysing the indexes
 - Indexes are always unique, even when they aren't. Behind the scenes the index will add the primary key into the tree to ensure uniqueness if you don'tspecifyunique
 - Included columns in an index include the value from that column in the index page. So if your index is on FishId and you include FishName then when you query a non-clusteredindex for just FishId and FishName then there is no reason to hit the table itself. As soon as you ask for something more than that you have to go to the table itself which involves a seek and then a lookup.

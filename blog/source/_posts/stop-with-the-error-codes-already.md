@@ -15,7 +15,7 @@ Why are we showing errors like this to users? We try to abstract the inner funct
 or
 
 
-## An error hasoccurred: the server is currently unresponsive â€“ we're working on a fix and will be back shortly
+## An error hasoccurred: the server is currently unresponsive "“ we're working on a fix and will be back shortly
 
 Gosh, I sure like that second one. Even more than that error I would like to see something which will tell me how I can fix the problem, if it is indeed something I can fix. As an example I have an application which reads excel files and loads them into a database. I would say that 30% of the time when I run it there is a failure because I've still got the excel file open. Instead of crashing or showing anunintelligibleerror message I show
 

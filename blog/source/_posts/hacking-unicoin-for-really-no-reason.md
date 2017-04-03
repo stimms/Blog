@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2014-04-01
 ---
 
-It is April 1st today which means that all manner of tom-foolery is afoot. Apart from WestJet's brilliant â€œ[metric time](https://www.youtube.com/watch?v=DcbO3hl3_F0)â€ joke the best one I've seen today is Stack Overflow's introduction of Unicoin which is a form of digital currency which can be used to purchase special effects on their site.
+It is April 1st today which means that all manner of tom-foolery is afoot. Apart from WestJet's brilliant "[metric time](https://www.youtube.com/watch?v=DcbO3hl3_F0)" joke the best one I've seen today is Stack Overflow's introduction of Unicoin which is a form of digital currency which can be used to purchase special effects on their site.
 
 [![unicoin](http://stimms.files.wordpress.com/2014/04/unicoin.png)](http://stimms.files.wordpress.com/2014/04/unicoin.png)
 
@@ -15,7 +15,7 @@ To get Unicoin you have two options: buy it or mine it. I have no idea if buying
 
 I played for a few minutes but got quickly tired of clicking. I'm old and clicking takes a toll. To unlock all the prizes you need to have about 800 coins (799 to be exact). So I fired up the F12 developer tools to see if I could figure out how the thing was working.
 
-As it turns out there are two phases to showing and scoring a rock. The first one is rock retrieval which is accomplished by a GET tohttp://stackoverflow.com/unicoin/rock?_=1396372372225 or similar. That parameter looked familiar to me and, indeed, it is a timestamp. This will return a new â€œrockâ€ which is just JSON
+As it turns out there are two phases to showing and scoring a rock. The first one is rock retrieval which is accomplished by a GET tohttp://stackoverflow.com/unicoin/rock?_=1396372372225 or similar. That parameter looked familiar to me and, indeed, it is a timestamp. This will return a new "rock" which is just JSON
 
 {"rock":"DAUezpi1zrfxHRxdi3yp9JUCZ9vwABJbDA"}
 

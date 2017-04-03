@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-05-21
 ---
 
-When I was a teenager I worked for one week at a local supermarket as a cashier. I only lasted a week because I found a â€œbetterâ€ job at Tim Hortons. As it turns out it was probably a far worse job but it did have the advantage that when you worked the closing shift all the donuts would have to be thrown out. From time to time a clean garbage bag full of donuts would make its way into somebody's car instead of the dumpster. Anyway this article isn't about how that is a greatmetaphorfor illegally downloading music, its about incorrect metrics.
+When I was a teenager I worked for one week at a local supermarket as a cashier. I only lasted a week because I found a "better" job at Tim Hortons. As it turns out it was probably a far worse job but it did have the advantage that when you worked the closing shift all the donuts would have to be thrown out. From time to time a clean garbage bag full of donuts would make its way into somebody's car instead of the dumpster. Anyway this article isn't about how that is a greatmetaphorfor illegally downloading music, its about incorrect metrics.
 
 The supermarket, called Superstore, had a goal of getting people through the checkout as quickly as possible. This was anoblegoal as nobody, except the English, likes spending time in a queue. They had identified that a checkout consisted of a few steps: unloading the cart, ringing the items up, paying, and packing. As this was a discount store the customer unloaded their own cart and packed their own groceries. The customer was typically the limiting factor on the speed of paying for the groceries too. This only left ringing the items up as an optimization point over which they had control.
 

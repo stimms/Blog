@@ -9,7 +9,7 @@ Earlier this week I got into a discussion at work about how much storage an appl
 
 > I'm just saying, don't start a "storage is expensive" argument with me. You're not going to win for numbers under 50TB
 > 
-> â€” Simon Timms (@stimms) [July 8, 2013](https://twitter.com/stimms/status/354263391038214145)
+> "” Simon Timms (@stimms) [July 8, 2013](https://twitter.com/stimms/status/354263391038214145)
 
 <script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 
@@ -27,7 +27,7 @@ Truth is that he's right. When I talk about storage being cheap I am talking abo
 
 3. Paying for SANs or NAS which is much more expensive than just disk
 
-So let's break this thing down. First off why are we backing up to tape still? I've seen a couple of arguments. The first is that tape is less costly than backing up to online storage. I had to look up some information on tapes because when I was last involved with them they were 250GB native. Turns out that they're up to 5TB native now(StorageTek T10000 T2). That's a lot of storage! Tapes have two listed capacity: a native capacity and a compressed capacity. The compressed capacity is 2x the native capacity â€“ the theory being that you can gzip files on the tape and get extra capacity for free. I don't know if people still get 2x compression with newer file formats as many of them integrate compression already.
+So let's break this thing down. First off why are we backing up to tape still? I've seen a couple of arguments. The first is that tape is less costly than backing up to online storage. I had to look up some information on tapes because when I was last involved with them they were 250GB native. Turns out that they're up to 5TB native now(StorageTek T10000 T2). That's a lot of storage! Tapes have two listed capacity: a native capacity and a compressed capacity. The compressed capacity is 2x the native capacity "“ the theory being that you can gzip files on the tape and get extra capacity for free. I don't know if people still get 2x compression with newer file formats as many of them integrate compression already.
 
 These tapes go for something like $150, so that's pretty frigging cheap! To get the same capacity on cloud services will cost you
 

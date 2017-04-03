@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-04-24
 ---
 
-Welcome to part 4! This is the first part which is divisible by 2 but isn't equal to 2. Of course that wouldn't be true if I started my blog series at 0. Son of a gun â€“ you just wait for the next series.
+Welcome to part 4! This is the first part which is divisible by 2 but isn't equal to 2. Of course that wouldn't be true if I started my blog series at 0. Son of a gun "“ you just wait for the next series.
 
 Deconstruction are one of my favorite features of CoffeeScript. Deconstructions allow for rapid assignment of variables or rapid remapping on complex objects. The simplest case is the old interview question of how to swap two variables.
 

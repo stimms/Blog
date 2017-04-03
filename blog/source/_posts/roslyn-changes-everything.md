@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2014-04-04
 ---
 
-Yesterday at Microsoft's build conference there was a huge announcement: Microsoft were open sourcing their new C#/VB.net compiler. On the surface this seems like a pretty minor thing. I mean who looks at how compilers work? â€œThis is probably going to be interesting to academics who study compilers and nobody else.â€
+Yesterday at Microsoft's build conference there was a huge announcement: Microsoft were open sourcing their new C#/VB.net compiler. On the surface this seems like a pretty minor thing. I mean who looks at how compilers work? "This is probably going to be interesting to academics who study compilers and nobody else."
 
 Well I disagree. I think it is going to be a huge turning point in how programmers work with code.
 
@@ -70,7 +70,7 @@ This the sort of thing which can just be added by rewritingthe syntax tree. Oh o
 
 <script src='https://gist.github.com/stimms/9974761.js'></script>
 
-That's probably a terrible syntax now I think about itâ€¦ whatever it is still possible.
+That's probably a terrible syntax now I think about it"¦ whatever it is still possible.
 
 
 # It is going to be awesome!

@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Quick A/B Testing in ASP.net MVC â€“ Part 4 Seeing your data
+title: Quick A/B Testing in ASP.net MVC "“ Part 4 Seeing your data
 authorId: simon_timms
 date: 2014-02-10
 ---
 
 <div style="background-color:#f8f8f8;">This blog is the fourth and final in a series about how to implement A/B testing easily in ASP.net MVC by using Redis
 
-1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC â€“ Part 1 Using 2Pages")
-2. [Choosing your groups](http://blog.simontimms.com/2014/01/14/quick-ab-testing-in-asp-net-mvc-part-2-choosing-your-groups/ "Quick A/B Testing in ASP.net MVC â€“ Part 2 Choosing YourGroups")
-3. [Storing user clicks](http://blog.simontimms.com/2014/01/20/quick-ab-testing-in-asp-net-mvc-part-3-storing-clicks/ "Quick A/B Testing in ASP.net MVC â€“ Part 3 Storingclicks")
+1. [Having 2 pages](http://blog.simontimms.com/2014/01/06/quick-ab-testing-in-asp-net-mvc-part-1-having-2-pages/ "Quick A/B Testing in ASP.net MVC "“ Part 1 Using 2Pages")
+2. [Choosing your groups](http://blog.simontimms.com/2014/01/14/quick-ab-testing-in-asp-net-mvc-part-2-choosing-your-groups/ "Quick A/B Testing in ASP.net MVC "“ Part 2 Choosing YourGroups")
+3. [Storing user clicks](http://blog.simontimms.com/2014/01/20/quick-ab-testing-in-asp-net-mvc-part-3-storing-clicks/ "Quick A/B Testing in ASP.net MVC "“ Part 3 Storingclicks")
 4. Seeing your data
 
 </div>Now that we've been running our tests for some time and have a good set of data built up it is time to retrieve and examine the data.

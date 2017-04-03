@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-02-18
 ---
 
-There is a saying which goes something like â€œyou can make up statistics to prove anything, 84% of people know thatâ€. The assertion is that nobody checks the sources of statistics which is more or less accurate. The lack of fact checking goes double for the recent surge of [infographics ](http://en.wikipedia.org/wiki/Infographic)on the web. I saw one show up on twitter today which I thought was particularly damning in its misrepresentation of statistics.
+There is a saying which goes something like "you can make up statistics to prove anything, 84% of people know that". The assertion is that nobody checks the sources of statistics which is more or less accurate. The lack of fact checking goes double for the recent surge of [infographics ](http://en.wikipedia.org/wiki/Infographic)on the web. I saw one show up on twitter today which I thought was particularly damning in its misrepresentation of statistics.
 
 <div class="wp-caption aligncenter" id="attachment_2327" style="width: 760px">[![A poor visualization](http://stimms.files.wordpress.com/2013/02/bad-visualization.png)](http://stimms.files.wordpress.com/2013/02/bad-visualization.png)A poor visualization
 

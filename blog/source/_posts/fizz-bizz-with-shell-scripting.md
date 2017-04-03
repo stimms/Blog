@@ -9,7 +9,7 @@ It seems like I'm writing a lot of fizzbizz examples at the moment. It is kind o
 
 Of course shell script isn't just one language, it depends on which shell you're using. When I worked a lot with unix derivatives I mostly worked with bash scripting. Unless it was aparticularlyold or odd OS in which case we would end up on plain sh. There are a bunch of other shells out there and I can remember a time when both csh and ksh were also popular. I can also remember when druids sacrificed goats. Is there a link between ksh's stupidarcanesyntax and goat slaughter? I can't proveconclusivelythat there is but there are no dead goats here and no ksh syntax either. Draw your own conclusions.
 
-I thought I would try using zsh style scripting for fizz bizz. Zsh is a newer shell which has many of the features of bash and also borrows from other shells. Now I say â€œnewerâ€ but it still dates to 1990.
+I thought I would try using zsh style scripting for fizz bizz. Zsh is a newer shell which has many of the features of bash and also borrows from other shells. Now I say "newer" but it still dates to 1990.
 
 <script src='https://gist.github.com/stimms/5122238.js'></script>
 

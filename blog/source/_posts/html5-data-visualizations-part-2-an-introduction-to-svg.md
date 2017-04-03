@@ -1,6 +1,6 @@
 ---
 layout: post
-title: HTML5 Data Visualizations â€“ Part 2 â€“ An Introduction to SVG
+title: HTML5 Data Visualizations "“ Part 2 "“ An Introduction to SVG
 authorId: simon_timms
 date: 2013-01-09
 ---

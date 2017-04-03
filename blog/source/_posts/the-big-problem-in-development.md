@@ -5,11 +5,11 @@ authorId: simon_timms
 date: 2013-06-21
 ---
 
-I frequently hear people saying â€œthe difficult problem in computing is Xâ€ or â€œnothing is hard in computing but Yâ€ for some value of X and Y. The most common one I hear is [Phil Karlton's quote](http://martinfowler.com/bliki/TwoHardThings.html)
+I frequently hear people saying "the difficult problem in computing is X" or "nothing is hard in computing but Y" for some value of X and Y. The most common one I hear is [Phil Karlton's quote](http://martinfowler.com/bliki/TwoHardThings.html)
 
 There are only two hard things in Computer Science: cache invalidation and naming things.
 
-I think that both naming and cache invalidation are hard but I don't think they are the hardest problems in computing science. Nor do I think â€œIs P == NP?â€ is the hard problem. It is certainly hard but it isn't all that important except for a certain class of problems. Maybe I'm doing the wrong things with my life but I can count on two hands the number of times I've run into a problem where the solution was a linear approximation or asearchin NP space.
+I think that both naming and cache invalidation are hard but I don't think they are the hardest problems in computing science. Nor do I think "Is P == NP?" is the hard problem. It is certainly hard but it isn't all that important except for a certain class of problems. Maybe I'm doing the wrong things with my life but I can count on two hands the number of times I've run into a problem where the solution was a linear approximation or asearchin NP space.
 
 No I think the big problem is: how is this going to change in the future?
 

@@ -9,9 +9,9 @@ I could not believe it when I checked and found that I don't have a post on how 
 
 The purpose of a bug report is to explain to the developers or support group exactly what went wrong. To do this I like to see bugs which tell a story:
 
-> I was attempting to load the add user form from the main menu but when I clicked on â€œAdd Userâ€ I was taken to the user list screen. I expected to be taken to a screen where I could add the user.
+> I was attempting to load the add user form from the main menu but when I clicked on "Add User" I was taken to the user list screen. I expected to be taken to a screen where I could add the user.
 
-This story contains the key elements which a developer would need to reproduce the bug. Obviously this is a very simple scenario and one in which it is apparent what the issue is. As the scenarios get more complicated the information needed from the user increases.Fortunatelymuch of this information can be gained from examining logs instead of pestering the user with questions like â€œWhat server were you on?â€ and â€œAt what time did the failure occur?â€.
+This story contains the key elements which a developer would need to reproduce the bug. Obviously this is a very simple scenario and one in which it is apparent what the issue is. As the scenarios get more complicated the information needed from the user increases.Fortunatelymuch of this information can be gained from examining logs instead of pestering the user with questions like "What server were you on?" and "At what time did the failure occur?".
 
 Make no mistake writing bug reports is a pain and for every issue you get a report of there are likely to be a dozen users who just give up. Frustratedusers aren't what you want. Making reporting as simple as possible for users should be a key part of your user interaction strategy. To streamline this process I usually suggest using a tool like [jing](http://www.techsmith.com/jing.html). This allows users to quickly record their screen so they don't even need to type in a bug report.
 

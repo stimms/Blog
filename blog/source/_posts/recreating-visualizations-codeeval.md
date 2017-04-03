@@ -33,7 +33,7 @@ Here we are setting up a new entry in our Graph module. You'll notice on line 15
 
 # Labels
 
-In a previous post I mentioned that it was difficult to center strings in an SVG. This, as it turns out, isn't true! You can make use of an attribute called text-anchor which sets where the anchor point is for a block of text. In our case we want to set its value to â€œmiddleâ€ which means that whatever x value we gave should be treated as the center of the string.
+In a previous post I mentioned that it was difficult to center strings in an SVG. This, as it turns out, isn't true! You can make use of an attribute called text-anchor which sets where the anchor point is for a block of text. In our case we want to set its value to "middle" which means that whatever x value we gave should be treated as the center of the string.
 
 <script src='https://gist.github.com/stimms/4740247.js'></script>
 

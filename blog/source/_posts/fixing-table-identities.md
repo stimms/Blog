@@ -7,9 +7,9 @@ date: 2010-06-28
 
 I make heavy use of Red Gate's excellent SQL Compare tools. I know I'm a bit of a shrill for them but they are time savers when dealing with multiple environments(development, testing, production) which is a pretty common occurrence in any sort of agile development. One flaw in them is that they often mess up the sequences in the destination database. Say you have a table Students with 15 records in it in development and 30 in production then performing a copy often brings along the sequence even if you don't select syncing that table. This results in duplicate key errors whenever a new record is inserted.
 
-For weeks I have been saying â€œI should write a script to check and fix thatâ€. Well I finally did it
+For weeks I have been saying "œI should write a script to check and fix that". Well I finally did it
 
-  
+```  
 SET ANSI_NULLS ON  
 GO  
 SET QUOTED_IDENTIFIER ON  

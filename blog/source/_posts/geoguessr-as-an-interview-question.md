@@ -14,11 +14,11 @@ Stay with me on this one. One of the more popular interview techniques for tech 
 
 I think that playing a round or two of [GeoGuessr](http://geoguessr.com/)(I linked it there because you got this far and deserve a reward) during the interview would allow for a quick evaluation of how the programmer thinks. Just have them puzzle out loud or play with their potential team mates. In the brief time I played with somebody we said things like
 
-â€œWell look, they're driving on the left side of the road so that eliminates a lot of places. The language on the signs seems to be English. So UK, South Africa or Australia.Seems prettyarid, perhaps Australia?â€
+"Well look, they're driving on the left side of the road so that eliminates a lot of places. The language on the signs seems to be English. So UK, South Africa or Australia.Seems prettyarid, perhaps Australia?"
 
 and
 
-â€œRight, there is a truck. A dodge truck so North America is pretty much for sure. There is a highway marker for an in-state highway 45. So we know US for sure. I bet most states have a highway 45, it is a good number 45. No mountains so that cuts out a few places. There is a train, looks like it has grain cars â€“ a lot of grain cars. Bread basket somewhere? Hey, hey look! A sign for interstate 69. Google it! It goes North/South through Arkansas and Kentucky. Let's try Kentucky.â€
+"Right, there is a truck. A dodge truck so North America is pretty much for sure. There is a highway marker for an in-state highway 45. So we know US for sure. I bet most states have a highway 45, it is a good number 45. No mountains so that cuts out a few places. There is a train, looks like it has grain cars "“ a lot of grain cars. Bread basket somewhere? Hey, hey look! A sign for interstate 69. Google it! It goes North/South through Arkansas and Kentucky. Let's try Kentucky."
 
 This demonstrates that we're working though a difficult problem and that we're doing it as a team. Also this sort of thing is a great ice breaker during an interview. If you try this out before me drop me a line and let me know how it works.
 

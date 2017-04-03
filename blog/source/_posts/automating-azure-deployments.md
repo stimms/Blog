@@ -36,7 +36,7 @@ into the same command prompt.
 
 [![Screen Shot 2014-03-02 at 8.30.08 AM](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-8-30-08-am.jpg?w=750)](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-8-30-08-am.jpg)5. Right click on that key and select Tasks > Export
 
-6. Select â€œNo, export a public keyâ€
+6. Select "No, export a public key"
 
 [![Screen Shot 2014-03-02 at 8.33.52 AM](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-8-33-52-am.jpg?w=300)](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-8-33-52-am.jpg)7. In the next step select the Der encoded key
 
@@ -52,11 +52,11 @@ You have now successfully created an Azure management key. The next step is to u
 
 3. Click upload and select the newly created .cer file.
 
-You now have the Azure half of the certificate complete. The next step is to get the client side of the certificate, a .pfx file, out. This is done in much the same way as the the private key, except this time select â€œYes, export the private keyâ€.
+You now have the Azure half of the certificate complete. The next step is to get the client side of the certificate, a .pfx file, out. This is done in much the same way as the the private key, except this time select "Yes, export the private key".
 
 1. Right click on the certificate, select tasks then export
 
-2. Select â€œYes, export the private keyâ€
+2. Select "Yes, export the private key"
 
 [![Screen Shot 2014-03-02 at 1.43.49 PM](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-1-43-49-pm.jpg?w=300)](http://stimms.files.wordpress.com/2014/03/screen-shot-2014-03-02-at-1-43-49-pm.jpg)
 

@@ -17,7 +17,7 @@ As an example of detecting the card type I threw together a little script. You c
 
 - 4 Visa
 - 34 American Express
-- â€¦
+- "¦
 
 So much better than making people type and so quickly done.
 

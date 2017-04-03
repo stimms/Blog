@@ -9,7 +9,7 @@ For ages I've been meaning to get more involved in the local .net community and 
 
 It wasn't a clean campaign but I won. We've also had a couple of other people join the .net user group executive and we've managed to retain most of the old team to boot. It is a perfect mixture of the seasoned and the new.
 
-I am really excited for our talks this year. Already we've got two talks set up and I'm sure we'll have a bunch more in no time. Typically the theme or our talks has been â€œWhat's new and awesomeâ€. That's pretty much going to continue this year but with a bit more emphasis on â€œawesomeâ€ than on â€œnewâ€. We're looking to do talks on the likes of TypeScript, F# and NoSQL databases. We're also partnering with a couple of other groups in town to do a showdown between Ruby on Rails and ASP.net MVC and something with the JavaScript group which hasn't yet been fleshed out.
+I am really excited for our talks this year. Already we've got two talks set up and I'm sure we'll have a bunch more in no time. Typically the theme or our talks has been "What's new and awesome". That's pretty much going to continue this year but with a bit more emphasis on "awesome" than on "new". We're looking to do talks on the likes of TypeScript, F# and NoSQL databases. We're also partnering with a couple of other groups in town to do a showdown between Ruby on Rails and ASP.net MVC and something with the JavaScript group which hasn't yet been fleshed out.
 
 We're actively looking to increase our membership and our sponsors as well as our relationships with people looking to bring specialized training into town.
 

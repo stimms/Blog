@@ -23,7 +23,7 @@ There are now a few of new options for creating build environments which can vas
 
 Configuration management tools such as [puppet](http://puppetlabs.com/), [chef](http://www.getchef.com/chef/), [chocolatey](http://chocolatey.org/) and [vagrant](http://vagrantup.com) have made creating reproducible environments trivial. Instead of checking in the development tools you can simply check in the configuration and apply it over a machine image. Of course this requires that the components remain available somewhere so it might be advisable to set up a local repository of important packages. However this repository can exist outside of source control. It is even possible that, if your file system supports it, you can put symbolic links back to the libraries instead of copying them locally. It is worth experimenting to see if this optimization actually improves the speed of builds.
 
-Package managers such as nuget, npm and gem fulfill the same role as configuration management tools but for libraries. In the past I've found this to fall down a bit when I have to build my own versions of certain libraries (I'm looking at you SharpTestsEx). I've previously checked these into a lib folder. However it is a far better idea to run your own internal repository of these specially modified packages â€“ assuming they remain fairly static. If they change frequently then including their source in your project could be a better approach.
+Package managers such as nuget, npm and gem fulfill the same role as configuration management tools but for libraries. In the past I've found this to fall down a bit when I have to build my own versions of certain libraries (I'm looking at you SharpTestsEx). I've previously checked these into a lib folder. However it is a far better idea to run your own internal repository of these specially modified packages "“ assuming they remain fairly static. If they change frequently then including their source in your project could be a better approach.
 
 Being able to reproduce builds in a reliable fashion and have the ability to pull out a long mothballed project are more important than we like to admit. Unfortunately not all of us can work on greenfield projects at all time so it remains important to make the experience of building old projects as simple as possible. In today's fast moving world a project which is only two or three years old could well be written with techniques or tools which we would now consider comically outdated.
 
@@ -31,7 +31,7 @@ Being able to reproduce builds in a reliable fashion and have the ability to pul
 
 > [@stimms](https://twitter.com/stimms) you forgot pre-built development (or project) specific VMs
 > 
-> â€” Donald Belcham (@dbelcham) [January 2, 2014](https://twitter.com/dbelcham/status/418784127609892864)
+> "” Donald Belcham (@dbelcham) [January 2, 2014](https://twitter.com/dbelcham/status/418784127609892864)
 
 <script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 

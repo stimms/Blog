@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2013-01-30
 ---
 
-On twitter today I was noticing that we're getting back into a debate about fizz-bizz or fizz-buzz as a tool for hiring programmers. I blame a combination of [Jimmy Bogart](http://lostechies.com/jimmybogard/2013/01/29/fizzbuzz-is-dead-long-live-fizzbuzz/) and [Rob Connery](http://wekeroad.com/2013/01/28/a-better-interview-question-star-alignment)for starting things up again. Funny how frequently Rob is to blame for thingsâ€¦
+On twitter today I was noticing that we're getting back into a debate about fizz-bizz or fizz-buzz as a tool for hiring programmers. I blame a combination of [Jimmy Bogart](http://lostechies.com/jimmybogard/2013/01/29/fizzbuzz-is-dead-long-live-fizzbuzz/) and [Rob Connery](http://wekeroad.com/2013/01/28/a-better-interview-question-star-alignment)for starting things up again. Funny how frequently Rob is to blame for things"¦
 
 I love Fizz-Bizz as an interview tool. For those not familiar with it the idea is that you have the candidate write a very simple piece of code the requirements for which are something along the lines of
 
@@ -23,7 +23,7 @@ That's it. The output should look something like
 >  Fizz  
 >  4  
 >  Bizz  
->  â€¦
+>  "¦
 
 The question is a very easy one and most people should be able to write an answer very quickly. I let people write it on the whiteboard, I don't care what language they use but they are time boxed at about 5 minutes.
 

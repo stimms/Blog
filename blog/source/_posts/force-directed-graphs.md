@@ -25,7 +25,7 @@ Nodes are quite easily set up and are just represented as circles. This is prett
 
 <script src='https://gist.github.com/stimms/5061606.js'></script>
 
-The edges have different strengths, the higher the value of the links the stronger the connection so the closer the nodes would be. I built the links based on the productions shared between the two people. The code for extracting the shared productions isâ€¦ ummâ€¦ not pretty. I really don't know how you would make it prettier other than changing the underlying data structure. So I guess the lesson here is: pick data structures which work with your requirements.
+The edges have different strengths, the higher the value of the links the stronger the connection so the closer the nodes would be. I built the links based on the productions shared between the two people. The code for extracting the shared productions is"¦ umm"¦ not pretty. I really don't know how you would make it prettier other than changing the underlying data structure. So I guess the lesson here is: pick data structures which work with your requirements.
 
 <script src='https://gist.github.com/stimms/5061621.js'></script>
 
