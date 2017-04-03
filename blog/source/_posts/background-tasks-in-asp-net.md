@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2014-02-20
 ---
 
-Earlier this week there was a great [blog post](http://www.hanselman.com/blog/ChecklistWhatNOTToDoInASPNET.aspx) over at Hanselman's blog about what not to do when building an ASP.net website. There was a lot of good advice in there but right at the bottom of the list was the single most important item, in my opinion €œLong Running Requests (>110 seconds)€. This means that you shouldn't be tying up your precious IIS threads with long running processes.  Personally I think that 110 seconds is a radically long time. I think that a number like 5 seconds is probably more reasonable, I would also entertain arguments that 5 seconds is too long.
+Earlier this week there was a great [blog post](http://www.hanselman.com/blog/ChecklistWhatNOTToDoInASPNET.aspx) over at Hanselman's blog about what not to do when building an ASP.net website. There was a lot of good advice in there but right at the bottom of the list was the single most important item, in my opinion €Long Running Requests (>110 seconds)€. This means that you shouldn't be tying up your precious IIS threads with long running processes.  Personally I think that 110 seconds is a radically long time. I think that a number like 5 seconds is probably more reasonable, I would also entertain arguments that 5 seconds is too long.
 
 If you look into running recurring tasks on IIS you're bound to find Jeff Atwood's [article](http://blog.stackoverflow.com/2008/07/easy-background-tasks-in-aspnet/) about using cache expiration policy to trigger periodic tasks. As it turns out this is a bad idea.  Avoiding long running requests is important for a number of reasons:
 
@@ -43,7 +43,7 @@ The copied connection string can be dropped into the web.config file. The nuget 
 
 <script src='https://gist.github.com/stimms/9107678.js'></script>
 
-In the home controller I set up a simple method for dropping a message onto the service bus. One of the differences between the queue and service bus is that the queue only takes a string as a message. Typically you serialize your message and then drop it into a message on the queue. JSON is a popular message format but there are numerous others. With service bus the message must be an instance of a BrokeredMessage. Within that message you can set the body as well as properties on the message. These properties should be considered part of the €œenvelope€ of the message. It may contain meta-information or really anything which isn't part of the key business meaning of the message.
+In the home controller I set up a simple method for dropping a message onto the service bus. One of the differences between the queue and service bus is that the queue only takes a string as a message. Typically you serialize your message and then drop it into a message on the queue. JSON is a popular message format but there are numerous others. With service bus the message must be an instance of a BrokeredMessage. Within that message you can set the body as well as properties on the message. These properties should be considered part of the €envelope€ of the message. It may contain meta-information or really anything which isn't part of the key business meaning of the message.
 
 <script src='https://gist.github.com/stimms/9113665.js'></script>
 
