@@ -40,8 +40,8 @@
 		)
 	));
 
-	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-width: 25%;
+	$size-header-pad: 2em;
 
 /* Basic */
 
@@ -906,8 +906,8 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
-		background-position:	top left,							top left;
+		background-image:		url('../images/bg.jpg');
+		background-position:	top right;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
 		color: _palette(accent2, fg);
@@ -929,19 +929,16 @@
 			margin: 0 0 ($size-header-pad * 0.5) 0;
 		}
 
-		strong, b {
-			color: _palette(accent2, fg-bold);
-		}
 
 		h2, h3, h4, h5, h6 {
-			color: _palette(accent2, fg-bold);
+			color: #49bf9d ;
 		}
 
 		h1 {
-			color: _palette(accent2, fg);
 			font-size: 1.35em;
 			line-height: 1.75em;
 			margin: 0;
+			color: #49bf9d ;
 		}
 
 		.image.avatar {
@@ -953,6 +950,8 @@
 /* Footer */
 
 	#footer {
+		position: absolute;
+		bottom: 0px;
 		.icons {
 			margin: (_size(element-margin) * 0.5) 0 0 0;
 
