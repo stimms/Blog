@@ -177,7 +177,7 @@
 		-webkit-overflow-scrolling: touch;
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
-		margin: 0 0 _size(element-margin) 0;
+		margin: 0 0 0.5em 0;
 
 		code {
 			display: block;
@@ -239,6 +239,11 @@
 			h2 {
 				font-size: 2em;
 			}
+		}
+		.booklist{
+			padding-top: 50px;
+			font-size: 10px;
+			text-align: left;
 		}
 	}
 
@@ -741,7 +746,7 @@
 		}
 
 		td {
-			padding: 0.75em 0.75em;
+			padding: 0.5em 0.5em;
 		}
 
 		th {
@@ -1366,6 +1371,9 @@
 					h2 {
 						font-size: 1.35em;
 					}
+				}
+				.booklist{
+					display: none;
 				}
 			}
 
