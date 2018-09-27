@@ -19,9 +19,7 @@ I'm currently working on my third book with [David Paquette](http://www.davepaqu
 
 [![](https://twimg0-a.akamaihd.net/a/1356725833/images/resources/twitter-bird-white-on-blue.png)](http://twitter.com/stimms)@stimms
 
-[  
-![profile for stimms at Stack Overflow, Q&A for professional and enthusiast programmers](http://stackoverflow.com/users/flair/361.png "profile for stimms at Stack Overflow, Q&A for professional and enthusiast programmers")  
-](http://stackoverflow.com/users/361/stimms)
+
 
 
 
