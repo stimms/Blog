@@ -13,11 +13,11 @@ A few days back there was a big debate about when to do unit testing and how muc
 
 <script async="" charset="utf-8" src="//platform.twitter.com/widgets.js"></script>
 
-On the other side of the debate the more pragmatic Greg young and Jimmy Bogard were suggesting that blindly testing everything is anaiveapproach. One should pick and choose the code to test. How much code should be tested? Well [it depends](http://lostechies.com/jimmybogard/2013/03/12/elaborating-on-it-depends/). I've been in the same boat as Jimmy, testing nothing, testing everything and testing somethingin-between. What's the right mixture? I have no idea.
+On the other side of the debate the more pragmatic Greg young and Jimmy Bogard were suggesting that blindly testing everything is a naive approach. One should pick and choose the code to test. How much code should be tested? Well [it depends](http://lostechies.com/jimmybogard/2013/03/12/elaborating-on-it-depends/). I've been in the same boat as Jimmy, testing nothing, testing everything and testing something in-between. What's the right mixture? I have no idea.
 
-To me it comes down to: what is of value to your business. What's theconsequenceto failure?
+To me it comes down to: what is of value to your business. What's the consequenceto failure?
 
-If you're a bank then theconsequenceof failure is pretty bad. If you're a service like twitter then it isn't too bad. For a long time twitter was super unreliable, but they got through it and became highly successful.
+If you're a bank then the consequence of failure is pretty bad. If you're a service like twitter then it isn't too bad. For a long time twitter was super unreliable, but they got through it and became highly successful.
 
 <div class="wp-caption aligncenter" id="attachment_2459" style="width: 310px">[![Remember this guy?](http://stimms.files.wordpress.com/2013/03/failwhale.jpg?w=300)](http://stimms.files.wordpress.com/2013/03/failwhale.jpg)Remember this guy?
 
