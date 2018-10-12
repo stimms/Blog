@@ -39,6 +39,8 @@ terraform {
 }
 ```
 
+## S3
+
 Next we set up the S3 bucket to hold our files. By now you might have noticed that we're using some variables denoted by the `${variable.name}` syntax. These variables can be defined in a file passed into the terraform tool. It is nice to make these things configurable so they can be reused. 
 
 The S3 is a little complicated because we need to allow public reading and add some CORS rules. The rules here are in place to allow the site to call out to an API. I've left the rules really open here and you probably shouldn't do that in real life. 
@@ -76,6 +78,8 @@ EOF
   }
 }
 ```
+
+## CloudFront
 
 Next we'll set up the CloudFront. This is a very bare-bones set up of CloudFront and doesn't make use of any of the cool advanced features. However, Terraform can do all that configuration for you. You may notice here that we're using that same variable syntax to reference other resources defined in the template. Specifically check out `domain_name = "${aws_s3_bucket.website.bucket_domain_name}"` which references back to the S3 container we set up just above.
 
@@ -128,6 +132,8 @@ resource "aws_cloudfront_distribution" "distribution" {
 }
 ```
 
+## Route53
+
 We're almost there. This part sets up the domain routing in route 53. We have both bare and www prefixed domains here
 
 ```
@@ -172,6 +178,8 @@ output "name servers" {
 }
 
 ```
+
+## Variables
 
 Our variables file looks like.
 
