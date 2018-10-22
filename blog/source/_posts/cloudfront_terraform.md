@@ -12,7 +12,7 @@ AWS, just like the other cloud platforms, offers a myriad of ways to host a webs
 
 In front of the S3 bucket we need to put something to do SSL termination. Of course, there is a service for that in the shape of CloudFront. CloudFront is a content delivery network which means that in addition to doing SSL termination it can improve performance through geo-distribution, caching and load balancing. It can even put in restrictions to disallow certain geographic regions from reaching the site. We're just interested in SSL termination right now.
 
-Probably the hardest part of getting going on static hosting is setting up all the pieces. You can click through the, frankly, terrible AWS UI or you can cut out the mouse and use [Terraform](https://www.terraform.io/). Terraform is a tool for writing infrastructure descriptions and it has adapters for all the major cloud providers and [https://www.terraform.io/docs/providers/index.html](a bunch which aren't major). The descriptions are called templates. 
+Probably the hardest part of getting going on static hosting is setting up all the pieces. You can click through the, frankly, terrible AWS UI or you can cut out the mouse and use [Terraform](https://www.terraform.io/). Terraform is a tool for writing infrastructure descriptions and it has adapters for all the major cloud providers and [a bunch which aren't major](https://www.terraform.io/docs/providers/index.html). The descriptions are called templates. 
 
 Let's take a look at a template for setting up a statically hosted site. We'll include a few services in this template
 
