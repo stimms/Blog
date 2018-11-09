@@ -8,31 +8,28 @@ Need to set the version of Azure functions runtime from an ARM template? Weirdly
 
 ```javascript
 {
-      "type": "Microsoft.Web/sites",
-      "kind": "functionapp",
-      "name": "[variables('webSiteName')]",
-      "tags": {
+    "type": "Microsoft.Web/sites",
+    "kind": "functionapp",
+    "name": "[variables('webSiteName')]",
+    "tags": {
         "displayName": "Site"
-      },
-      "identity": {
-        "type": "SystemAssigned"
-      },
-      "apiVersion": "2016-08-01",
-      "location": "[resourceGroup().location]",
-      "scale": null,
-      "resources": [
-        {
-          "name": "appsettings",
-          "type": "config",
-          "apiVersion": "2015-08-01",
-          "dependsOn": [ "[concat('Microsoft.Web/sites/', variables('webSiteName'))]" ],
-          "tags": {
-            "displayName": "App settings"
-          },
-          "properties": {
-            "FUNCTIONS_EXTENSION_VERSION": "~2",
-          }
+    },
+    "apiVersion": "2016-08-01",
+    "location": "[resourceGroup().location]",
+    "scale": null,
+    "resources": [
+    {
+        "name": "appsettings",
+        "type": "config",
+        "apiVersion": "2015-08-01",
+        "dependsOn": [ "[concat('Microsoft.Web/sites/', variables('webSiteName'))]" ],
+        "tags": {
+        "displayName": "App settings"
+        },
+        "properties": {
+        "FUNCTIONS_EXTENSION_VERSION": "~2",
         }
-      ],...
     }
+    ],...
+}
 ```
