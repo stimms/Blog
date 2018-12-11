@@ -5,6 +5,9 @@ date: 2018-12-10 9:00
 
 ---
 
+<div style="background: aliceblue"><h2>C# Advent</h2>This post is one among many which is part of 2018's [C# Advent](https://crosscuttingconcerns.com/The-Second-Annual-C-Advent). There are a ton of really great posts this year and some new bloggers to discover. I'd strongly encourage you to check it out.</div>
+<hr/>
+
 One of the things you'll learn a lot about if you pursue any sort of formal education in computing science is data structures. However, once I hit the real world then it seemed like for most problems the speed differential between a linked list and a System.Collections.Generic.List wasn't meaningful. List quickly became my go-to and it was very unusual that any other data structure would even cross my mind. This sort of lazy thinking can have a serious effect as the size of input grows. So harkening back to my school days I wanted to talk about the rudimentary data structure that is a linked list.
 
 <!-- more -->
@@ -142,7 +145,6 @@ public void List()
 ```
 
 The resulting speedup here is really pretty impressive, 12x for linked lists over regular lists. 
-
 
 ## Conclusion
 
