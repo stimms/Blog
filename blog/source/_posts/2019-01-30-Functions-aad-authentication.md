@@ -1,7 +1,7 @@
 layout: post
 title: Azure Functions and Azure B2C Authentication
 authorId: simon_timms
-date: 2019-01-14 9:00
+date: 2019-01-30 9:00
 
 ---
 
