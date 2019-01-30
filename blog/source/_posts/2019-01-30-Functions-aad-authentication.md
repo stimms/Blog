@@ -91,7 +91,7 @@ With this in place a login button is rendered. Click on the button and a popup w
 case getType(login.loginSuccess):
     return {
         ...state,
-        loggedIn: true,
+        loggedIn: true,y
         bearerToken: action.payload.body.jwtAccessToken,
         displayName: action.payload.body.user.name,
         userId: action.payload.body.user.userIdentifier,
