@@ -146,6 +146,10 @@ public void List()
 
 The resulting speedup here is really pretty impressive, 12x for linked lists over regular lists. 
 
+## Adding in the middle
+
+The final case I wanted to check was adding an element after an element in the middle of the list. I'll assume that we already have the element.
+
 ## Conclusion
 
 List are a pretty good general purpose data structure but there are cases where just throwing a list at the problem isn't going to give you a good solution. I was working on [Advent of Code](https://adventofcode.com/2018) this year and there was a problem where solving it using a List took on the order of 2 hours on my machine and using a linked list it dropped to less than 2 seconds. The problem in question dealt with a lot of short hops inside a list (forward 1, back 7, remove 1, forward 1, add 1) which made it ideal for a linked list. The constant copying around for a List added a very significant amount of overhead. 
