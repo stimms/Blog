@@ -7,6 +7,8 @@ date: 2019-02-17 19:00
 
 When it was announced the Roslyn would become the default compiler for C# in Visual Studio I was [super excited](https://blog.simontimms.com/2014/04/04/roslyn-changes-everything/). I felt like it would generate all sorts of domain specific languages, custom flavors of C#, tons of custom error providers. So here we are 5 years later and almost none of it has come to pass. Why not?
 
+<!--more-->
+
 Well turns out the compiler stuff is kind of hard. It is just a bridge too far for people to do any of the cool things I thought they would do. I guess we can add this to the long list of things that I'm wrong about. 
 
 But a few weeks ago I broke some code in a durable function because I was returning the wrong shaped data. I didn't find out until the code was deployed which is obviously later than I wanted. Because of the way that Durable Functions were constructed favoring magic strings and Objects it tends to be more susceptible to bugs which you wouldn't normally see in a statically typed language. 
