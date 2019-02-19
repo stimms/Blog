@@ -56,4 +56,6 @@ Orchestration trigger on the wrong data type
 
 If you want to try this out on your own project it is as easy as installing a [nuget package](https://www.nuget.org/packages/DurableFunctionsAnalyzer/). 
 
+I'm looking for suggestions for new features or bugs in existing features. My tests are limited so any bug people can contribute will improve the product. Open an issue on [github](https://github.com/stimms/DurableFunctionsAnalyzer)
+
 Now I know how to build these analyzers I think I'll try to build more for internal applications. 
