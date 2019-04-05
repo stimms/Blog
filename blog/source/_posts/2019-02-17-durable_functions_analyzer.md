@@ -1,8 +1,10 @@
+---
 layout: post
 title: Durable Functions Analyzer
 authorId: simon_timms
 date: 2019-02-17 19:00
-
+tags: crm
+category: dynamics365
 ---
 
 When it was announced the Roslyn would become the default compiler for C# in Visual Studio I was [super excited](https://blog.simontimms.com/2014/04/04/roslyn-changes-everything/). I felt like it would generate all sorts of domain specific languages, custom flavors of C#, tons of custom error providers. So here we are 5 years later and almost none of it has come to pass. Why not?

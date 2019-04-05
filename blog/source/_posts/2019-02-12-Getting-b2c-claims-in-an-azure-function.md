@@ -1,3 +1,4 @@
+---
 layout: post
 title: Accessing B2C Claims in an Azure Function
 authorId: simon_timms

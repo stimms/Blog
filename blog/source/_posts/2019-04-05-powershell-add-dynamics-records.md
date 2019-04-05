@@ -1,3 +1,4 @@
+---
 layout: post
 title: Add records to Dynamics 365 from PowerShell
 authorId: simon_timms
