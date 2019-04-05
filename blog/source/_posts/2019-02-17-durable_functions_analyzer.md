@@ -1,4 +1,4 @@
-9layout: post
+layout: post
 title: Durable Functions Analyzer
 authorId: simon_timms
 date: 2019-02-17 19:00
