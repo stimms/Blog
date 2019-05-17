@@ -32,7 +32,7 @@ Download MiniKube and chmod it so you can run it.
 curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64   && chmod +x minikube
 ```
 
-#Virtual Box
+# Virtual Box
 
 Now go ahead and install Virtual Box to be your virtual machine hypervisor. I know it suck that Oracle own it but hold your nose.
 
@@ -41,7 +41,7 @@ sudo apt-get install virtualbox
 ```
 
 
-#Starting up
+# Starting up
 
 Wit MiniKube in the current directory you can start it up with 
 
