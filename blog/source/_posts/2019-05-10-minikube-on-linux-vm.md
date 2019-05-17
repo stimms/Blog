@@ -14,7 +14,7 @@ The first step is to log into the Azure portal and head over to Virtual Machines
 
 Next pick an operating system. I like Ubuntu so I went with that.
 
-#kubectl
+# kubectl
 
 The first step is to install kubectl which can control your Kubernetes cluster. In an ssh session run 
 
@@ -24,7 +24,7 @@ sudo snap install kubectl --classic
 
 Now kubectl is installed. 
 
-#MiniKube
+# MiniKube
 
 Download MiniKube and chmod it so you can run it.
 
