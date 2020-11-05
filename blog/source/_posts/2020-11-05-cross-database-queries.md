@@ -8,7 +8,7 @@ date: 2020-11-05 14:00
 
 I seem to be picking up a few projects lately which require migrating data up to Azure SQL from an on premise database. One of the things that people tend to do when they have on premise databases is query across databases or link servers together. It is a really tempting prospect to be able to query the `orders` database from the `customers` database. There are, of course, numerous problems with taking this approach not the least of which is making it very difficult to change database schema. We have all heard that it is madness to integrate applications at the database level and that's one of the reasons. 
 
-Unfortunately, whacking developers with a ruler and making them rewrite their business logic to observer proper domain boundaries isn't always on the cards. This is a problem when migrating them to SQL Azure because querying across databases, even ones on the same server, isn't permitted. 
+Unfortunately, whacking developers with a ruler and making them rewrite their business logic to observe proper domain boundaries isn't always on the cards. This is a problem when migrating them to SQL Azure because querying across databases, even ones on the same server, isn't permitted. 
 
 ![Broken query across databases](/images/elasticquery/brokenQuery.png)
 
