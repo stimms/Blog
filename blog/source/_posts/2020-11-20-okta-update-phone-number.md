@@ -27,7 +27,7 @@ await factorsCollection.each((factor) => factors.push(factor));
 let existingFactor = factors.find((x) => x.factorType == 'sms');
 ```
 
-`existingFactor` now hold the existing SMS factor (if there is one). We need to remove it using `deleteFactor`
+`existingFactor` now holds the existing SMS factor (if there is one). We need to remove it using `deleteFactor`
 
 ```
 if(existingFactor){
