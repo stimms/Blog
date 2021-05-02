@@ -2,10 +2,6 @@
 title:  Logging in Functions
 authorId: simon_timms
 date: 2021-05-02
-tags: azure functions applicationInsights
-mode: public
----
-
 # Logging in Functions
 
 Looks like by default functions log at the `info` level. To change the level you can use set the application setting `AzureFunctionsJobHost__logging__LogLevel__Default` to some other value like `Error` or `Info`. 
