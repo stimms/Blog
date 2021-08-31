@@ -19,11 +19,11 @@ The process is a 2 sided thing: setting up the Snowflake integration on the AD s
 ## Azure Side
 
 1. Go to azure AD and click on `Enterprise Applications` on the left hand side
-![](/images/2021-07-05-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-05-12-25-20.png))
+![](/images/2021-07-05-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-05-12-25-20.png)
 2. Click `New Application` and search for Snowflake select it and create it
 3. In there set up the links to your Snowflake tenant for single sign on by selecting Single sign-on on the left
 4. Fill in the URLs for your snowflake instance. The only thing that you really need to pay attention to is that you're using the snowflake name on your already created snowflake instance.
-![](/images/2021-07-05-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-05-12-28-33.png))
+![](/images/2021-07-05-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-05-12-28-33.png)
 5. Download the Base64 Certificate from the SAML Signing Certificate section
 6. Assign a test user to the snowflake integration by clicking on users and groups and adding an existing user
 
@@ -66,18 +66,18 @@ select system$generate_scim_access_token('AAD_PROVISIONING');
 ```
 This should give you a long key which you should copy. 
 
-![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-15-59-43.png))
+![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-15-59-43.png)
 
 Go back to the AD app and click on Provisioning. In there change over to automatic provisioning. Enter the key in the `Secret Token` field and in the `Tenant Url` field enter your usual URL but this time with `/scim/v2` on the end of it. 
 
 Test the connection and ensure that it can connect properly. With that done you'll need to turn provisioning status on
 
-![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-16-01-34.png))
+![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-16-01-34.png)
 
 ## Adding Users to the Sync
 
 If you want to add a new user to the synchronizing then go back to the snowflake app under Enterprise Applications in Azure AD. In there click on `Users and groups`
-![](/images/2021-08-31-enable-azure-ad-based-SSO-for-snowflake.md/2021-08-31-13-17-47.png))
+![](/images/2021-08-31-enable-azure-ad-based-SSO-for-snowflake.md/2021-08-31-13-17-47.png)
 
 Then on the add users and groups button. In there you can select your user and click `Assign`. That should be it. It may take a few minutes to sync. You can always check the status of the sync by going to the `Provisioning` item
 
@@ -86,4 +86,4 @@ Then on the add users and groups button. In there you can select your user and c
 
 The biggest one here is that the snowflake key used in automatic provisioning only has a lifespan of 6 months. It is almost certainly going to break horribly at that time. You should mitigate this by having the sync job email you if it fails. This can be done in the settings page in Azure
 
-![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-16-06-05.png))
+![](/images/2021-07-06-enable-azure-ad-based-SSO-for-snowflake.md/2021-07-06-16-06-05.png)

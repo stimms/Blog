@@ -23,7 +23,7 @@ mode: public
     npm run storybook
     ```
 This will get storybook running and you'll be presented with the browser interface for it 
-![](/images/2021-04-27-storybook.md/2021-04-27-12-17-47.png))
+![](/images/2021-04-27-storybook.md/2021-04-27-12-17-47.png)
 
 ## Adding Vuetify
 

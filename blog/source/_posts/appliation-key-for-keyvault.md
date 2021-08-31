@@ -43,7 +43,7 @@ resource "azurerm_key_vault_access_policy" "terraformaccess" {
 ```
 Maybe the value is in the portal somewhere:
 
-![](/images/2021-08-12-appliation-key-for-keyvault.md/2021-08-12-21-21-51.png))
+![](/images/2021-08-12-appliation-key-for-keyvault.md/2021-08-12-21-21-51.png)
 
 Nope. 
 
