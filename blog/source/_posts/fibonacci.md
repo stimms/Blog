@@ -1,5 +1,5 @@
 ---
-title:  Closed form FibonaCCI
+title:  Closed form Fibonacci
 authorId: simon_timms
 date: 2021-10-05
 mode: public
