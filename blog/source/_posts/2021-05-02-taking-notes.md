@@ -3,7 +3,6 @@ layout: post
 title: Taking Notes
 authorId: simon_timms
 date: 2021-05-02 10:00
-
 ---
 
 Taking notes is hard. I think I took notes in university but I wasn't very good at it. I'd either put everything in them making them unapproachably long or I'd put in too little information. As a result I've kind of shied away from taking notes in my professional career. Unfortunately, is it starting to bite me more and more as I jump around between technologies and projects. I often find myself saying "shoot, I just did this 6 months ago - how do I do that?" 
