@@ -1,6 +1,5 @@
 ---
 title:  Installing VSFTP from source
-define VSF_BUILD_SSL
 authorId: simon_timms
 date: 2021-09-08
 mode: public
