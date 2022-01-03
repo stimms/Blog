@@ -19,7 +19,7 @@ cd vsftpd-3.0.5
 Now you're going to need to edit the `builddefs.h` specifically you want to enable SSL with 
 
 ```
-#define VSF_BUILD_SSL
+ #define VSF_BUILD_SSL
 ```
 
 You may need to install the open ssl headers
