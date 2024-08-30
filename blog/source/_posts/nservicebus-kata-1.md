@@ -65,7 +65,8 @@ dotnet add messages package NServiceBus
 ```
 
 7. Create a new class in the messages project (and remove Class1.cs)
-```csharp
+
+```
 namespace messages;
 
 using NServiceBus;
@@ -78,7 +79,8 @@ public class EatCake: ICommand
 ```
 
 8. Update Program.cs in the sender project to send a message
-```csharp
+
+```
 using messages;
 using NServiceBus;
 
@@ -102,7 +104,8 @@ await endpointInstance.Stop();
 ```
 
 9. Update Program.cs in the receiver project to be an endpoint
-```csharp
+
+```
 using NServiceBus;
 
 Console.Title = "MizeKata - Reciever";
@@ -123,7 +126,8 @@ await endpointInstance.Stop();
 ```
 
 10. Add a message handler to the receiver project
-```csharp
+
+```
 using messages;
 
 public class PlaceOrderHandler :
