@@ -7,6 +7,9 @@ date: 2024-08-30
 
 Exciting times for me, I get to help out on an NServiceBus project! It's been way too long since I did anything with NServiceBus but I'm back, baby! Most of the team has never used NServiceBus before so I thought it would be a good idea to do a little kata to get them up to speed. I'll probably do 2 or 3 of these and if they help my team they might as well help you, too.
 
+* Kata 1 - Sending a message
+* Kata 2 - [Publishing a message](nservicebus-kata-2) 
+
 ## The Problem
 
 Our goal is to very simply demonstrate reliable messaging. If you're communicating between two processes on different machines a usual approach is to send a message using HTTP. Problem is that sometimes the other end isn't reachable. Could be that the service is down, could be that the network is down or it could be that the remote location was hit by a meteor. HTTP won't help us in this case - what we want is a reliable protocol which will save the message somewhere safe and deliver it when the endpoint does show up. 
@@ -84,9 +87,9 @@ public class EatCake: ICommand
 using messages;
 using NServiceBus;
 
-Console.Title = "MizeKata - Sender";
+Console.Title = "NServiceBusKata - Sender";
 
-var endpointConfiguration = new EndpointConfiguration("MizeKataSender");
+var endpointConfiguration = new EndpointConfiguration("NServiceBusKataSender");
 
 // Choose JSON to serialize and deserialize messages
 endpointConfiguration.UseSerialization<SystemJsonSerializer>();
@@ -95,7 +98,7 @@ var transport = endpointConfiguration.UseTransport<LearningTransport>();
 
 var endpointInstance = await Endpoint.Start(endpointConfiguration);
 
-await endpointInstance.Send("MizeKataReceiver", new EatCake{
+await endpointInstance.Send("NServiceBusKataReceiver", new EatCake{
     Flavour = "Coconut",
     NumberOfCakes = 2 //don't be greedy
 });
@@ -108,9 +111,9 @@ await endpointInstance.Stop();
 ```
 using NServiceBus;
 
-Console.Title = "MizeKata - Reciever";
+Console.Title = "NServiceBusKata - Reciever";
 
-var endpointConfiguration = new EndpointConfiguration("MizeKataReceiver");
+var endpointConfiguration = new EndpointConfiguration("NServiceBusKataReceiver");
 
 // Choose JSON to serialize and deserialize messages
 endpointConfiguration.UseSerialization<SystemJsonSerializer>();
@@ -130,7 +133,7 @@ await endpointInstance.Stop();
 ```
 using messages;
 
-public class PlaceOrderHandler :
+public class EatCakeHandler :
     IHandleMessages<EatCake>
 {
     public Task Handle(EatCake message, IMessageHandlerContext context)
