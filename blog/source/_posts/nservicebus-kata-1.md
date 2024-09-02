@@ -9,6 +9,7 @@ Exciting times for me, I get to help out on an NServiceBus project! It's been wa
 
 * Kata 1 - Sending a message
 * Kata 2 - [Publishing a message](nservicebus-kata-2) 
+* Kata 3 - [Switching transports](nservicebus-kata-3)
 
 ## The Problem
 

@@ -11,6 +11,7 @@ In the previous kata we sent a message from one application to another. This is 
 
 * Kata 1 - [Sending a message](nservicebus-kata-1)
 * Kata 2 - Publishing a message 
+* Kata 3 - [Switching transports](nservicebus-kata-3)
 
 # The Problem
 
