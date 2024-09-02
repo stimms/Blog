@@ -8,8 +8,8 @@ date: 2024-08-30
 Exciting times for me, I get to help out on an NServiceBus project! It's been way too long since I did anything with NServiceBus but I'm back, baby! Most of the team has never used NServiceBus before so I thought it would be a good idea to do a little kata to get them up to speed. I'll probably do 2 or 3 of these and if they help my team they might as well help you, too.
 
 * Kata 1 - Sending a message
-* Kata 2 - [Publishing a message](nservicebus-kata-2) 
-* Kata 3 - [Switching transports](nservicebus-kata-3)
+* Kata 2 - [Publishing a message](https://blog.simontimms.com/2024/08/31/nservicebus-kata-2) 
+* Kata 3 - [Switching transports](https://blog.simontimms.com/2024/09/01/nservicebus-kata-3)
 
 ## The Problem
 

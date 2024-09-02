@@ -9,9 +9,9 @@ In the previous kata we sent a message from one application to another. This is 
 
 <!--more -->
 
-* Kata 1 - [Sending a message](nservicebus-kata-1)
+* Kata 1 - [Sending a message](https://blog.simontimms.com/2024/08/30/nservicebus-kata-1)
 * Kata 2 - Publishing a message 
-* Kata 3 - [Switching transports](nservicebus-kata-3)
+* Kata 3 - [Switching transports](https://blog.simontimms.com/2024/09/01/nservicebus-kata-3)
 
 # The Problem
 
