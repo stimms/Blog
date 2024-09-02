@@ -80,4 +80,4 @@ Things to try now
 
 2. Log into the RabbitMQ management console(running at http://localhost:15672/ with credentials `guest`/`guest`) you should see the queues created and in fact a message processed
 
-![A RabbitMQ queue](2024-09-01-12-09-20.png)
+![A RabbitMQ queue](/images/nservicebus/2024-09-01-12-09-20.png)
