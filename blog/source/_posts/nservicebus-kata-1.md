@@ -11,6 +11,8 @@ Exciting times for me, I get to help out on an NServiceBus project! It's been wa
 * Kata 2 - [Publishing a message](https://blog.simontimms.com/2024/08/31/nservicebus-kata-2) 
 * Kata 3 - [Switching transports](https://blog.simontimms.com/2024/09/01/nservicebus-kata-3)
 * Kata 4 - [Long running processes](https://blog.simontimms.com/2024/09/01/nservicebus-kata-4)
+* Kata 5 - [Timeouts](https://blog.simontimms.com/2024/09/09/nservicebus-kata-5)
+
 
 ## The Problem
 
