@@ -12,7 +12,6 @@ title:  Let's Encrypt on Azure AKS
  you must add the --set installCRDs=true flag to your Helm installation command.
 authorId: simon_timms
 date: 2024-10-13
-tags: azure aks ingress letsencrypt 
 mode: public
 ---
 
