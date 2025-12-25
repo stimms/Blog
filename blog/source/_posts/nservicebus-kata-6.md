@@ -3,6 +3,7 @@ layout: post
 title: NServiceBus Kata 6 - When things go wrong
 authorId: simon_timms
 date: 2024-09-14
+originalurl: https://blog.simontimms.com/2024/09/14/nservicebus-kata-6
 ---
 
 So far in this series things have been going pretty well. We've looked at sending messages, publishing messages, switching transports, long running processes, and timeouts. But what happens when things go wrong? In this kata we're going to look at how to handle errors in NServiceBus.
