@@ -16,7 +16,7 @@ I honestly belive that the future is going to be a hybrid approach: some operati
 But here is where things get a little interesting: I was reading that OpenAI is purchasing [something like 40%](https://globalcio.com/news/16062/) of all the memory being produced by 2030. And that's just one company, if Microsoft, Google, Amazon and Meta all jump on this bandwagon then what memory will there be left for everyone else? What if that's the intention? We're already seeing consumer memory prices spike. 
 
 Here are the average prices for DDR5-6000 2x32GB kits over the last 18 months (from PC PartPicker):
-![DDR5-6000 2x32GB (Average price in CAD over last 18 months)](2025-12-24-22-27-47.png)
+![DDR5-6000 2x32GB (Average price in CAD over last 18 months)](/images/where-is-ai-going/2025-12-24-22-27-47.png)
 
 That seems like a hockey stick graph to me. And this memory is used in everything from desktops to laptops to phones to TVs. I best stupid toasters and fridges use memory now too. I'm remminded that during COVID a lot of tech companies were hiring anybody they could, not because they had work for them, but because they wanted to hoard talent and keep it away from competitors. What if the same is happening with memory and compute? What if these big AI companies are buying up all the resources they can get their hands on to keep it away from competitors and startups? And perhaps they're buying them to keep them out of the hand of consumers so they cannot run models locally?
 
