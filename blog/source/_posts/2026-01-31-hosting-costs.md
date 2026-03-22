@@ -11,29 +11,29 @@ The cloud make this so much easier. We could spin up a server in minutes and wit
 
 Recently though I've been looking at the cost of hosting an application in Azure. Even for our small applications it is surprisngly expensive. We had a tendency to vastly overbuild the hosting when for applications that have only hundreds or low thousands of users. What really gets us is the cost of the database. 
 
-![](2026-03-22-10-11-01.png)
+![](/images/2026-01-31-hosting-costs/2026-03-22-10-11-01.png)
 
 This isn't a huge or highly performant database, but it is still costing us almost $400/month. For a small application with only a few hundred users this is a huge cost. Add on dev and test environments and the cost is even higher. Painful. 
 
 I wanted to understand if I was still recommending the right thing to people so I started looking at alternatives. My first stop was looking at a VPS provider. I wanted something in Canada becasue this is where I live and I wanted to support local businesses. I found a provider called [OVH](https://www.ovhcloud.com/en-ca/) that had a VPS with 8 vCores, 24 Gig of memory and a 200 Gig SSD for $32 a month off contract. 
 
-![](2026-03-22-10-18-01.png)
+![](/images/2026-01-31-hosting-costs/2026-03-22-10-18-01.png)
 
 Now obviously vCores aren't a standard measurement unit so it's hard to compares that with something from another offering like Azure but on the surface this feels similar to a D12 from Azure which is $380/month and that's in USD so closer to $500/month CAD. The OVH offering is about 1/15th the cost of Azure.
 
-![](2026-03-22-10-21-19.png)
+![](/images/2026-01-31-hosting-costs/2026-03-22-10-21-19.png)
 
 Yikes! 
 
 So I figured I'd sign up. Maybe the added cost here would be becasue it was really arduous to get signed up. I'll admit going through the process wasn't as polished as a cloud provier. Little things like this
 
-![](2026-03-22-10-28-27.png)
+![](/images/2026-01-31-hosting-costs/2026-03-22-10-28-27.png)
 
 Is that a last name field or a field for people who only have a single name? Is Madonna buying hosting a frequently? The 2FA setup, though, was probably the best I've ever done. It had the really nice feature of letting you record the name of the app you were using for 2FA. I have multiple apps for 2FA and this is a really nice feature.
 
 I did spot this warning, though
 
-![](2026-03-22-10-30-35.png)
+![](/images/2026-01-31-hosting-costs/2026-03-22-10-30-35.png)
 
 Okay so there might be some latency in getting this server provisioned. That sucks, but perhaps I've gotten too used to the instant gratificaiton of demanding compute and getting it 5 minutes later. The email I got said that the server would be provisioned within the next 7 days. That's a long time to wait but whilte we do let's talk about why this VPS might not be a great idea. What are we losing by not using cloud hosting?
 
