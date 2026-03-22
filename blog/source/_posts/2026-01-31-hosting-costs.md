@@ -5,7 +5,7 @@ authorId: simon_timms
 date: 2026-01-15
 ---
 
-If you happened to read my previous post about [where AI is going](https://simon-timms.github.io/blog/2025/12/24/where-is-this-ai-stuff-going.html) then you might have picked up on my concerns about the rising cost of memory and compute. For the last few years any time I've recommened hosting to a client I've recommended some variant of AWS, Azure, or GCP. I've done this because I remember how painful it used to be to get a server allocated from an overstressed IT department. When I was on internship years ago for a large petro-chemical company we planned had to plan for deployment 6 or even 12 months in advance. IT had to figure out capacity and plan, plan plan. 
+If you happened to read my previous post about [where AI is going](https://blog.simontimms.com/2025/12/24/where-is-this-ai-stuff-going/) then you might have picked up on my concerns about the rising cost of memory and compute. For the last few years any time I've recommened hosting to a client I've recommended some variant of AWS, Azure, or GCP. I've done this because I remember how painful it used to be to get a server allocated from an overstressed IT department. When I was on internship years ago for a large petro-chemical company we planned had to plan for deployment 6 or even 12 months in advance. IT had to figure out capacity and plan, plan plan. 
 
 The cloud make this so much easier. We could spin up a server in minutes and with platform as a service we didn't have to worry about underlying compute or updates to operating systems, or patching. It was a dream. I'd tell clients "You're an insurance company leave being an IT company to Microsoft/Amazon/Google".
 
